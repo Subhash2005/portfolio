@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subhash | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="main-header" class="interactive-header">
+        <h1>Hi, I'm <span>Subhash</span></h1>
+        <p style="font-size: 1.2rem; color: var(--text-muted); margin-top: 10px;">Actively Seeking Roles In:</p>
+        <p style="font-size: 1rem; color: var(--accent); margin-top: 5px; font-weight: 600;">Software Engineering | Web & App Development | AI Agent Development</p>
+        <p class="click-hint" style="margin-top: 25px;"><i class="fa-solid fa-chevron-down"></i> Click to view profile</p>
+    </header>
+
+    <!-- Expandable Profile Section -->
+    <section id="profile-section" class="profile-container hidden">
+        <div class="profile-card glass-panel">
+            <div class="profile-content">
+                <h2>Subhash</h2>
+                <div class="profile-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div>
+                            <h3>Education</h3>
+                            <p>Sri Sairam Institute of Technology (May 2022 - 2026)<br>CGPA: 8.63</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <div>
+                            <h3>Professional Background</h3>
+                            <p>Web Developer, App Developer, AI Agent Developer, and AI Automation.</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-trophy"></i>
+                        <div>
+                            <h3>Achievements</h3>
+                            <ul style="color: var(--text-muted); font-size: 0.9rem; margin-left: 20px;">
+                                <li>Winner – SDG Hackathon Solvethon 3.0 & EXTENZIA 4.0</li>
+                                <li>Published Research Paper at DJS Spark</li>
+                                <li>Published Patent under Intellectual Property India</li>
+                                <li>Led INFYRA 24, Verbatron 1.0 & IEEE Workshop</li>
+                                <li>Participated in SIH, SAP Hackfest & Talkathon</li>
+                                <li>Volunteered in UBA Tech Outreach Programs</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <div>
+                            <h3>Internships</h3>
+                            <ul style="color: var(--text-muted); font-size: 0.9rem; margin-left: 20px;">
+                                <li><strong>Precision Biometric India Pvt Ltd</strong> - Software Testing</li>
+                                <li><strong>Nullclass EdTech Pvt Ltd</strong> - Web Developer</li>
+                                <li><strong>Evastro Ventures Pvt Ltd</strong> - Data Science</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="profile-actions">
+                    <a href="assets/resume.pdf" target="_blank" class="btn primary-btn"><i class="fa-solid fa-file-pdf"></i> View Resume</a>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/subhash-s-63369a257/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Subhash2005" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/u/subhash14/" target="_blank" title="LeetCode"><i class="fa-solid fa-code"></i></a>
+                        <a href="#" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">My Projects</h2>
+
+            <!-- Web Development -->
+            <div class="project-category">
+                <h3><i class="fa-solid fa-globe"></i> Web Development</h3>
+                <div class="projects-grid">
+                    <!-- Project Card -->
+                    <div class="project-card glass-panel">
+                        <div class="video-container">
+                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1779779936/20260525-1301-05.3538754_cdp3ee.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://aura-attend.vercel.app/', '_blank')" title="Click to open link"></video>
+                        </div>
+                        <div class="project-info">
+                            <h4>Aura Attend - Smart Management</h4>
+                            <p>Automate attendance tracking, leave approvals, OD submissions, fee management, and real-time monitoring through a centralized cloud-based system.</p>
+                            
+                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
+                            <div class="deep-content hidden">
+                                <p>Aura Attend is a full-stack attendance and management platform designed to streamline academic and administrative processes using secure authentication, cloud storage, and real-time data management.</p>
+                                <p><strong>Key Features:</strong> Attendance Tracking, Leave & OD Management, Permission Approval System, Leave Fee Payment Integration, Admin Analytics Dashboard.</p>
+                                <p><strong>Tech Stack:</strong> React.js • Node.js • Python • OpenCV • MongoDB • Cloudinary • JWT • Tailwind CSS • Express.js</p>
+                                <a href="aura_attend_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- App Development -->
+            <div class="project-category">
+                <h3><i class="fa-solid fa-mobile-screen"></i> App Development</h3>
+                <div class="projects-grid">
+                    <!-- Project Card -->
+                    <div class="project-card glass-panel">
+                        <div class="video-container">
+                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1779803284/Untitled_design_ftoi0s.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://shorturl.at/7txE8', '_blank')" title="Click to open link"></video>
+                        </div>
+                        <div class="project-info">
+                            <h4>QueueLess - Smart Queue Management</h4>
+                            <p>Reduce waiting time and improve service efficiency through online token booking, real-time queue tracking, and intelligent crowd management.</p>
+                            
+                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
+                            <div class="deep-content hidden">
+                                <p>QueueLess is a mobile-based queue management platform designed to simplify crowd handling and token management using cloud integration and real-time monitoring systems.</p>
+                                <p><strong>Key Features:</strong> Online Token Generation, Queue Tracking, Crowd Monitoring, Queue Alerts, Admin Dashboard.</p>
+                                <p><strong>Tech Stack:</strong> Flutter • Dart • Python • FastAPI • Firebase • MongoDB • Android Studio</p>
+                                <a href="queueless_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agent Development -->
+            <div class="project-category">
+                <h3><i class="fa-solid fa-robot"></i> Agent Development</h3>
+                <div class="projects-grid">
+                    <!-- Project Card -->
+                    <div class="project-card glass-panel">
+                        <div class="video-container">
+                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1779803405/Screen_Recording_2026-05-17_021355_lu5t0l.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://upicare.vercel.app/', '_blank')" title="Click to open link"></video>
+                        </div>
+                        <div class="project-info">
+                            <h4>UPI Care - AI Customer Support</h4>
+                            <p>Resolve payment failures, pending transactions, refund delays, and UPI-related issues instantly through intelligent automated support.</p>
+                            
+                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
+                            <div class="deep-content hidden">
+                                <p>UPI Care is a smart AI-driven support platform designed to simplify customer issue resolution for digital payment systems using automation, FastAPI services, and intelligent response management.</p>
+                                <p><strong>Key Features:</strong> AI-Based Support Agent, Pending Transaction Assistance, Payment Failure Resolution, Complaint and Ticket Management.</p>
+                                <p><strong>Tech Stack:</strong> React.js • Python • FastAPI • AgentSpan • MongoDB • JWT • Tailwind CSS • NLP</p>
+                                <a href="upi_care_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Footer & Freelance Section -->
+    <footer>
+        <div class="freelance-banner">
+            <h2>Available for Freelance Opportunities</h2>
+            <p>Let's build something amazing together.</p>
+            <div class="contact-methods">
+                <a href="tel:+917695903778"><i class="fa-solid fa-phone"></i> +91 7695903778</a>
+                <a href="mailto:subhash1422005s@gmail.com"><i class="fa-solid fa-envelope"></i> subhash1422005s@gmail.com</a>
+                <a href="https://linkedin.com/in/subhash-s-63369a257/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Subhash. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot UI -->
+    <div id="chatbot-container">
+        <button id="chatbot-toggle" class="chat-btn">
+            <i class="fa-solid fa-message"></i>
+        </button>
+        
+        <div id="chatbot-window" class="chat-window hidden glass-panel">
+            <div class="chat-header">
+                <h3>Send me a message</h3>
+                <button id="chat-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="chat-body">
+                <form id="contact-form">
+                    <input type="text" id="sender-name" placeholder="Your Name" required>
+                    <input type="email" id="sender-email" placeholder="Your Email" required>
+                    <textarea id="sender-message" rows="4" placeholder="Type your message here..." required></textarea>
+                    <button type="submit" class="btn submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+                <div id="chat-status" class="hidden"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EmailJS SDK (Required for sending emails directly from browser) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
