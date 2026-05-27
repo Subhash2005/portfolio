@@ -92,9 +92,6 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
-@media (max-width: 600px) {
-    .profile-details { grid-template-columns: 1fr; }
-}
 .detail-item {
     display: flex;
     gap: 15px;
@@ -115,9 +112,6 @@ body {
     align-items: center;
     border-top: 1px solid var(--glass-border);
     padding-top: 20px;
-}
-@media (max-width: 600px) {
-    .profile-actions { flex-direction: column; gap: 20px; }
 }
 
 /* Buttons & Links */
@@ -387,3 +381,93 @@ footer {
 }
 #chat-status.success { color: #4ade80; }
 #chat-status.error { color: #f87171; }
+
+/* Responsive Design */
+
+/* Tablet & Smaller Laptops */
+@media (max-width: 1024px) {
+    .projects-section {
+        padding: 40px 15px;
+    }
+    .profile-container {
+        padding: 0 15px;
+    }
+}
+
+/* Tablet (Portrait) & Mobile Landscape */
+@media (max-width: 768px) {
+    .interactive-header {
+        padding: 70px 15px;
+    }
+    .interactive-header h1 {
+        font-size: 2.5rem;
+    }
+    .section-title {
+        font-size: 2.2rem;
+    }
+    .freelance-banner {
+        padding: 40px 15px;
+    }
+    .freelance-banner h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    .profile-details {
+        grid-template-columns: 1fr;
+    }
+    .profile-actions {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .interactive-header {
+        padding: 50px 15px;
+    }
+    .interactive-header h1 {
+        font-size: 2rem;
+    }
+    .interactive-header p:nth-of-type(1) {
+        font-size: 1rem !important;
+    }
+    .interactive-header p:nth-of-type(2) {
+        font-size: 0.9rem !important;
+    }
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-methods {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .contact-methods a {
+        width: 100%;
+        justify-content: center;
+    }
+    .project-info {
+        padding: 15px;
+    }
+    .video-container {
+        height: 180px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.8rem;
+    }
+    .freelance-banner h2 {
+        font-size: 1.5rem;
+    }
+    #chatbot-container {
+        right: 15px;
+        bottom: 20px;
+    }
+    .chat-window {
+        width: calc(100vw - 30px);
+        right: 0;
+    }
+}
