@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Cook – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>Happy Cook - MVP Overview</h1>
+        
+        <h2>Project Overview</h2>
+        <p>Happy Cook is a dual-sided digital food ordering platform that completely digitizes the dining and takeaway experience. It bridges the gap between hungry customers and local hotel owners by providing a seamless, real-time ecosystem.</p>
+        
+        <h2>Core Features</h2>
+        
+        <h3>For Customers:</h3>
+        <ul>
+            <li><strong>Location-Based Discovery:</strong> Automatically fetches the user's live GPS coordinates to display only hotels within a 10km radius.</li>
+            <li><strong>Unified Smart Search:</strong> A powerful search engine that instantly finds both specific dishes and hotel names in real-time as you type.</li>
+            <li><strong>Frictionless Checkout:</strong> Complete Razorpay integration supporting UPI, Cards, and Netbanking.</li>
+            <li><strong>Digital QR Receipts:</strong> Upon payment success, a dynamic QR code is generated in the order history. Scanning it immediately reveals verified transaction details and Payment IDs.</li>
+        </ul>
+
+        <h3>For Hotel Owners:</h3>
+        <ul>
+            <li><strong>Menu Management:</strong> Easily add, edit, and categorize dishes directly from their mobile dashboard.</li>
+            <li><strong>Live Order Tracking:</strong> Instantly receive and process incoming customer orders.</li>
+        </ul>
+
+        <h2>Technologies and Tools Used</h2>
+        <table>
+            <tr><th>Category</th><th>Technologies</th></tr>
+            <tr><td>Frontend (Mobile)</td><td>React Native, Expo, Redux Toolkit, React Navigation</td></tr>
+            <tr><td>Backend</td><td>Node.js, Express.js</td></tr>
+            <tr><td>Database</td><td>MongoDB, Mongoose ODM (GeoJSON)</td></tr>
+            <tr><td>Authentication</td><td>JWT, bcryptjs</td></tr>
+            <tr><td>Payments</td><td>Razorpay Node SDK</td></tr>
+            <tr><td>Deployment</td><td>Render, EAS Build (Expo)</td></tr>
+            <tr><td>Version Control</td><td>Git, GitHub</td></tr>
+        </table>
+
+        <h2>Concepts Used</h2>
+        <ul>
+            <li>Location-Based Services & Discovery</li>
+            <li>Real-Time Order Tracking</li>
+            <li>Frictionless Checkout & Payment Integration</li>
+            <li>Digital QR Code Receipt Generation</li>
+            <li>Dual-sided Platform Architecture</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

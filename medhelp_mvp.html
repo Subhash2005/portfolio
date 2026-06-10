@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedHelp – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>MedHelp : Medicinal help agent</h1>
+        
+        <h2>1. Terminology & Core Concepts</h2>
+        <ul>
+            <li><strong>Multimodal Vision AI:</strong> An AI capable of processing both text and raw images simultaneously to understand context (e.g., reading a handwritten prescription and understanding the medicine's chemical purpose).</li>
+            <li><strong>Zero-Shot OCR Translation:</strong> Bypassing traditional Optical Character Recognition (OCR) step-by-step processing. The AI looks at the image and directly translates messy handwriting into another language (like Tamil or Hindi) without needing a middle-man text file.</li>
+            <li><strong>Smart Triage Engine:</strong> An automated system that ranks a user's symptoms by urgency (Low, Medium, High, Emergency) before giving advice.</li>
+            <li><strong>Polypharmacy Cross-Referencing:</strong> (The Pillbox feature). The algorithmic checking of multiple overlapping drug mechanisms to detect severe chemical interactions.</li>
+        </ul>
+
+        <h2>2. Tech Stack & Frameworks</h2>
+        <h3>Languages & Environments</h3>
+        <ul>
+            <li><strong>JavaScript (ES6+):</strong> The primary programming language used for all logic, API interfacing, and UI rendering.</li>
+            <li><strong>Node.js Environment:</strong> Powers the Expo Metro bundler and package management.</li>
+        </ul>
+
+        <h3>Frameworks & Kits</h3>
+        <ul>
+            <li><strong>React Native:</strong> The core mobile app framework used to build native Android and iOS interfaces from a single codebase.</li>
+            <li><strong>Expo Framework:</strong> The overarching toolchain used to compile, test, and deploy the React Native app. Specifically, EAS (Expo Application Services) was used for cloud-compiling the Android .apk.</li>
+            <li><strong>React Navigation (@react-navigation/native):</strong> Handles the complex Native Stack routing between the Home, Chatbot, Pillbox, and Scanner screens.</li>
+        </ul>
+
+        <h3>AI & External Tools</h3>
+        <ul>
+            <li><strong>Google Gemini 2.5 Flash API:</strong> The state-of-the-art LLM used for all intelligent features. Chosen for its extreme speed and native image-processing capabilities.</li>
+            <li><strong>@google/generative-ai SDK:</strong> The official toolkit used to communicate directly with Google's servers.</li>
+            <li><strong>expo-image-picker:</strong> The native module kit used to access the user's local smartphone camera hardware and photo gallery securely.</li>
+        </ul>
+
+        <h2>3. The MVP Feature Set</h2>
+        <ul>
+            <li><strong>Intelligent Scanner:</strong> Snap a photo of a messy prescription or unknown pill to get plain-text instructions and identification.</li>
+            <li><strong>Native Translation:</strong> Instantly converts medical jargon into English, Tamil, Hindi, or Spanish.</li>
+            <li><strong>Generics & Cost-Saver:</strong> Suggests cheaper chemical equivalents for expensive branded drugs.</li>
+            <li><strong>Interaction Pillbox:</strong> A virtual safety net that warns users if mixing their current medications is dangerous.</li>
+            <li><strong>Role-Based Medical Database:</strong> Explains drugs differently depending on if the user is a normal patient, a pharmacology student, or a doctor.</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EquiBridge – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>EquiBridge - MVP Overview</h1>
+        
+        <h2>Project Overview</h2>
+        <p>EquiBridge is a full-stack web application designed to connect different demographics—students, daily workers, and individuals with disabilities—to opportunities, resources, and work. It features specialized portals tailored to the unique needs of each user group, alongside accessibility features like a voice-navigated assistant and built-in translation.</p>
+        
+        <h2>Core Features</h2>
+        <ul>
+            <li><strong>Student Portal:</strong> For finding organizations, tracking progress, viewing job statuses, and managing a "Dream Pipeline".</li>
+            <li><strong>Daily Work Sector:</strong> Geared towards daily wage workers to find nearby work, track revenue, manage investments, and access emergency funds.</li>
+            <li><strong>Disability Sector:</strong> An accessible portal for users with disabilities to find inclusive job vacancies.</li>
+            <li><strong>Voice Assistant:</strong> Hands-free navigation utilizing the browser's Web Speech API.</li>
+            <li><strong>Auto-Translate:</strong> Google Translate integration to dynamically translate the UI into the user's native language.</li>
+        </ul>
+
+        <h2>Technologies and Tools Used</h2>
+        <table>
+            <tr><th>Category</th><th>Technologies</th></tr>
+            <tr><td>Frontend</td><td>React.js, Vite, React Router, Vanilla CSS</td></tr>
+            <tr><td>Backend</td><td>FastAPI (Python), Uvicorn</td></tr>
+            <tr><td>Database</td><td>MongoDB Atlas, pymongo</td></tr>
+            <tr><td>Authentication</td><td>Google OAuth (@react-oauth/google)</td></tr>
+            <tr><td>Deployment</td><td>Vercel (Frontend), Render (Backend)</td></tr>
+        </table>
+
+        <h2>Concepts Used</h2>
+        <ul>
+            <li>Modular Architecture Flow</li>
+            <li>OAuth Single Sign-On (SSO)</li>
+            <li>Web Accessibility (Voice Commands & Translation)</li>
+            <li>High-Performance Asynchronous Python APIs</li>
+            <li>Demographic-Specific Dashboards</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

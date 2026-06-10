@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Chronicle AI – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>News Chronicle AI - MVP Overview</h1>
+        
+        <h2>Project Overview</h2>
+        <p>News Chronicle AI is a real-time, AI-powered news aggregator and intelligence platform designed with a classic, premium editorial aesthetic. The MVP serves as a centralized hub where users can monitor breaking global news, organize research, and transcribe live video broadcasts into textual analysis on the fly.</p>
+        
+        <h2>Core Features</h2>
+        <ul>
+            <li><strong>AI Personas:</strong> Contextual lenses applied to search queries to tailor news for Students, Employers, or General Consumers.</li>
+            <li><strong>Live TV Capture:</strong> Transcribes live YouTube news broadcasts (e.g., BBC News) into rolling, real-time textual alerts.</li>
+            <li><strong>Nova AI Assistant:</strong> A conversational AI integrated directly into the "Explore" tab to answer complex questions across multiple news timelines.</li>
+            <li><strong>Folders & Bookmarking:</strong> A localized system for users to save, categorize, and organize news articles for later research.</li>
+            <li><strong>Real-time RSS Scraper:</strong> Fetches live global news to ensure the AI's data is completely up-to-date.</li>
+        </ul>
+
+        <h2>Technologies and Tools Used</h2>
+        <table>
+            <tr><th>Category</th><th>Technologies</th></tr>
+            <tr><td>Frontend</td><td>React.js, Vite, Vanilla CSS, Lucide React, WebSockets</td></tr>
+            <tr><td>Backend</td><td>Python, FastAPI, aiohttp, BeautifulSoup4, Uvicorn</td></tr>
+            <tr><td>Artificial Intelligence</td><td>Groq API (llama-3.3-70b-versatile)</td></tr>
+            <tr><td>Database & Storage</td><td>ChromaDB, Local Storage</td></tr>
+        </table>
+
+        <h2>Concepts Used</h2>
+        <ul>
+            <li>Retrieval-Augmented Generation (RAG)</li>
+            <li>Real-Time WebSockets Streaming</li>
+            <li>Vector Database Semantic Search</li>
+            <li>Asynchronous Data Scraping</li>
+            <li>Dynamic Persona Prompt Injection</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

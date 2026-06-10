@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FancyBazaar – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>FancyBazaar - MVP Overview</h1>
+        
+        <h2>Project Overview</h2>
+        <p>FancyBazaar is a modern, full-stack e-commerce platform built to support both standard retail customers (B2C) and wholesale buyers/vendors (B2B). The MVP allows users to browse products by categories, manage a shopping cart and wishlist, view vendor-specific shops, and securely checkout. It includes a vendor dashboard for merchants to manage their inventory and an admin panel for overall platform management.</p>
+        
+        <h2>Core Features</h2>
+        <ul>
+            <li><strong>Dual Marketplace:</strong> Supports both B2C retail and B2B wholesale transactions seamlessly.</li>
+            <li><strong>Vendor Dashboards:</strong> Dedicated interfaces for merchants to manage inventory, update stock, and control their specific shops.</li>
+            <li><strong>Product Browsing:</strong> Categorized product viewing, wishlist management, and smart cart integration.</li>
+            <li><strong>Secure Checkout:</strong> Encrypted transactions and order tracking.</li>
+            <li><strong>Admin Panel:</strong> Overall platform administration, user role management, and system monitoring.</li>
+        </ul>
+
+        <h2>Technologies and Tools Used</h2>
+        <table>
+            <tr><th>Category</th><th>Technologies</th></tr>
+            <tr><td>Frontend Framework</td><td>React.js, Vite</td></tr>
+            <tr><td>Styling</td><td>Vanilla CSS, Custom Layouts</td></tr>
+            <tr><td>Backend</td><td>Node.js, Express.js</td></tr>
+            <tr><td>Database & Storage</td><td>MongoDB, Mongoose, MongoDB Atlas</td></tr>
+            <tr><td>Authentication</td><td>JWT (JSON Web Tokens), Bcrypt.js</td></tr>
+            <tr><td>Security Middleware</td><td>helmet, express-rate-limit, cors</td></tr>
+            <tr><td>Deployment</td><td>Vercel (Frontend), Render (Backend)</td></tr>
+        </table>
+
+        <h2>Concepts Used</h2>
+        <ul>
+            <li>Client-Server Architecture (SPA & REST API)</li>
+            <li>Stateless Authentication (JWT)</li>
+            <li>B2B & B2C Marketplace Hybrid Model</li>
+            <li>NoSQL Hierarchical Data Modeling</li>
+            <li>Secure Middleware Implementation</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

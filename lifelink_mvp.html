@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeLink – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>LifeLink – Medical Crowdfunding and Emergency Assistance Platform</h1>
+        
+        <h2>1. Minimum Viable Product (MVP)</h2>
+        <p>The MVP for LifeLink+ is a dedicated medical crowdfunding and emergency assistance platform designed to facilitate secure peer-to-peer financial contributions and critical support. The system focuses on ensuring trust, speed, and transparency in medical fundraising while maintaining a seamless user experience. Key features of the MVP include:</p>
+        <ul>
+            <li><strong>Medical Crowdfunding System:</strong> Secure platform for creating, managing, and funding medical campaigns for beneficiaries in need.</li>
+            <li><strong>Emergency Assistance Routing:</strong> Dedicated workflow to handle urgent, time-sensitive requests for immediate medical support.</li>
+            <li><strong>Medical Document Verification:</strong> Smart validation and administrative review system to authenticate campaign legitimacy and build donor trust.</li>
+            <li><strong>Secure Payment Processing:</strong> Integrated payment workflow for handling donor contributions, tracking funds, and managing disbursements.</li>
+            <li><strong>Real-Time Campaign Tracking:</strong> Node.js and Express-powered backend services enabling live updates on fundraising progress and campaign status.</li>
+            <li><strong>Secure Authentication System:</strong> User authentication and secure session handling for protected access by donors, beneficiaries, and administrators.</li>
+            <li><strong>Intelligent Data Management:</strong> MongoDB-powered database structure for storing user profiles, medical records, and transaction histories securely.</li>
+            <li><strong>Responsive User Interface:</strong> Modern and responsive React-based frontend designed for seamless donor interaction and accessibility across all devices.</li>
+        </ul>
+
+        <h2>2. Important Terminology</h2>
+        <ul>
+            <li><strong>Medical Crowdfunding:</strong> A financial mechanism allowing multiple donors to securely contribute funds towards an individual's medical treatments or procedures.</li>
+            <li><strong>Beneficiary & Donor Ecosystem:</strong> Beneficiaries are individuals requiring medical financial assistance, while Donors are individuals or entities contributing financial resources.</li>
+            <li><strong>RESTful API Integration:</strong> Communication architecture enabling seamless interaction between the React frontend applications and Node.js backend services.</li>
+            <li><strong>Trust & Verification Workflow:</strong> Structured document validation process for tracking, updating, and authenticating medical campaigns to prevent fraud.</li>
+            <li><strong>Real-Time Backend Processing:</strong> Express.js-powered backend capable of handling concurrent user requests, campaign creation, and donation processing efficiently.</li>
+            <li><strong>Secure Authentication & Authorization:</strong> Protecting user accounts and sensitive payment information using robust token-based authentication systems.</li>
+            <li><strong>Scalable Cloud-Based Architecture:</strong> A modular backend system capable of handling increasing donor traffic and an expanding repository of active campaigns.</li>
+        </ul>
+
+        <h2>3. Technology Stack</h2>
+        <h3>I. Cloud Services & Backend Infrastructure</h3>
+        <ul>
+            <li><strong>MongoDB Atlas:</strong> Cloud-based NoSQL database for storing user credentials, campaigns, donation records, and verification documents.</li>
+            <li><strong>JWT Authentication:</strong> Secure token-based authentication system for protecting user sessions and API communication.</li>
+        </ul>
+
+        <h3>II. Languages & Frontend Ecosystem</h3>
+        <ul>
+            <li><strong>Languages:</strong> JavaScript (ES6+), HTML5 & CSS3.</li>
+            <li><strong>React.js:</strong> Core frontend library used for building the interactive single-page application.</li>
+            <li><strong>Vite:</strong> Fast build tool and development server used for optimizing the React frontend environment.</li>
+            <li><strong>React Router DOM:</strong> Handles client-side navigation and routing seamlessly between platform pages.</li>
+            <li><strong>Axios / Fetch API:</strong> Used for API communication between the React frontend and Express backend services.</li>
+        </ul>
+
+        <h3>III. Backend Ecosystem & Security</h3>
+        <ul>
+            <li><strong>Node.js & Express.js:</strong> High-performance JavaScript runtime and minimalist web framework for REST API development.</li>
+            <li><strong>MongoDB & Mongoose:</strong> Database system and Object Data Modeling library.</li>
+            <li><strong>Security Utilities:</strong> JWT, dotenv, CORS, Input Validation & Error Handling.</li>
+        </ul>
+
+        <h3>IV. Deployment & Development Tools</h3>
+        <ul>
+            <li><strong>Vercel:</strong> Frontend deployment and hosting platform specifically optimized for the Vite-React application.</li>
+            <li><strong>Render:</strong> Backend cloud deployment platform for hosting the Node.js and Express API services.</li>
+            <li><strong>Tools:</strong> VS Code, Git & GitHub, Postman, npm.</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered SOC – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>AI-Powered SOC - MVP Overview</h1>
+        
+        <h2>1. Core Concepts & Terminology</h2>
+        <ul>
+            <li><strong>SOC (Security Operations Center):</strong> A centralized function within an organization employing people, processes, and technology to continuously monitor and improve an organization's security posture while preventing, detecting, analyzing, and responding to cybersecurity incidents.</li>
+            <li><strong>Threat Intelligence (Threat Intel):</strong> Evidence-based knowledge, including context, mechanisms, indicators, implications, and actionable advice, about an existing or emerging menace or hazard to assets.</li>
+            <li><strong>Impossible Travel Anomaly:</strong> A security concept used to detect potentially compromised accounts by identifying when a user logs in from two geographically distant locations within a time frame that is physically impossible to travel between.</li>
+            <li><strong>OSINT (Open-Source Intelligence):</strong> The collection and analysis of data gathered from open sources to produce actionable intelligence, often used to identify known malicious IP addresses or bad actors.</li>
+            <li><strong>Vector Database:</strong> A database designed to store and query high-dimensional vectors. In this context, it is used for semantic search over threat intelligence data.</li>
+            <li><strong>Knowledge Graph (Graph DB approach):</strong> A way of representing data as nodes and edges to understand relationships. Used here to map users to IP addresses and devices to identify anomalous connections.</li>
+            <li><strong>Real-time Event Streaming:</strong> The continuous transmission of log data as it is generated, allowing for immediate analysis and threat detection.</li>
+        </ul>
+
+        <h2>2. Technology Stack & Frameworks</h2>
+        <h3>Backend Technologies</h3>
+        <ul>
+            <li><strong>Language:</strong> Python 3</li>
+            <li><strong>Framework:</strong> FastAPI - A modern, fast web framework for building APIs with Python.</li>
+            <li><strong>Server:</strong> Uvicorn - An ASGI web server implementation for Python.</li>
+            <li><strong>WebSockets:</strong> Used for establishing a persistent, bidirectional communication channel between the backend and the frontend dashboard to push real-time alerts.</li>
+        </ul>
+        
+        <h3>Frontend Technologies</h3>
+        <ul>
+            <li><strong>Languages:</strong> HTML, CSS, JavaScript (Vanilla)</li>
+            <li><strong>Architecture:</strong> Real-time dashboard that consumes WebSocket streams to dynamically update tables and alert cards.</li>
+        </ul>
+
+        <h2>3. Models & Specialized Tools</h2>
+        <ul>
+            <li><strong>LLM (Large Language Model):</strong> Google Gemini 2.5 Flash - Acts as the core "AI Agent" that reasons over suspicious logs, analyzes context, and recommends mitigation actions.</li>
+            <li><strong>Vector DB:</strong> ChromaDB - An open-source vector database used to store and retrieve relevant threat intelligence.</li>
+            <li><strong>Graph Processing:</strong> NetworkX - Used to build a graph of relationships between users, IPs, and devices.</li>
+        </ul>
+
+        <h2>4. MVP Workflow</h2>
+        <ul>
+            <li><strong>Log Generation/Ingestion:</strong> System generates or ingests simulated login logs (User, IP, Location, ISP, Device).</li>
+            <li><strong>Initial Triage (Rule-Based):</strong> Checks memory store for past sessions. Detects "impossible travel" or anomalous ISP.</li>
+            <li><strong>Context Enrichment:</strong> Queries ChromaDB for relevant threat intelligence based on the suspicious event.</li>
+            <li><strong>AI Analysis:</strong> Log, context, and threat intel are sent to Gemini 2.5 Flash.</li>
+            <li><strong>Decision & Action:</strong> LLM returns structured JSON indicating threat status, reasoning, and actions.</li>
+            <li><strong>Real-Time Broadcast:</strong> Confirmed threats broadcasted via WebSockets to the dashboard.</li>
+            <li><strong>Memory Update:</strong> Updates session cache and relationship graph with new data points.</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

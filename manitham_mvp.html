@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manitham – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>Manitham - MVP Overview</h1>
+        
+        <h2>Project Overview</h2>
+        <p>Manitham is an innovative civic engagement and community workforce platform. Its core concept revolves around empowering citizens not just to report local infrastructure issues, but to actively participate in solving them while earning a wage. It bridges the gap between the public and government departments.</p>
+        
+        <h2>Core Features</h2>
+        <ul>
+            <li><strong>Issue Reporting:</strong> Citizens can instantly report local issues (e.g., broken roads, water leaks, sanitation problems) to specific departments.</li>
+            <li><strong>Citizen Workforce (Micro-Gig Economy):</strong> Instead of waiting months for contractors, government officers can "auction" verified issues as tasks. Local citizens can then join the workforce to fix the problem for a daily wage.</li>
+            <li><strong>Officer Management:</strong> A dedicated dashboard for departmental officers to verify reports, assign necessary workforce counts, set budgets, and mark tasks as completed.</li>
+            <li><strong>AI-Powered Prioritization:</strong> Smart categorization and prioritization of issues based on the description and department.</li>
+            <li><strong>Role-Based Access Control:</strong> Separate experiences and dashboards for Citizens and Officers.</li>
+            <li><strong>Live Workforce Tracking:</strong> Citizens can see available tasks in their area, check wages, and hit "Participate" to join the workforce.</li>
+        </ul>
+
+        <h2>Technologies and Tools Used</h2>
+        <table>
+            <tr><th>Category</th><th>Technologies</th></tr>
+            <tr><td>Languages</td><td>Dart</td></tr>
+            <tr><td>Frontend Framework</td><td>Flutter, Material Design 3, Flutter Web</td></tr>
+            <tr><td>Backend & Database</td><td>Firebase, Cloud Firestore</td></tr>
+            <tr><td>Authentication</td><td>Firebase Authentication</td></tr>
+        </table>
+
+        <h2>Concepts Used</h2>
+        <ul>
+            <li>Civic Engagement & Issue Reporting</li>
+            <li>Micro-Gig Economy & Workforce Management</li>
+            <li>Real-Time Task Auctioning</li>
+            <li>Departmental Filtering & Role-Based Access</li>
+            <li>AI-Powered Task Prioritization</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

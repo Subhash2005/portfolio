@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Companion – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>CA Companion - MVP Overview</h1>
+        
+        <h2>Project Overview</h2>
+        <p>The MVP is an AI-powered mobile application designed for Chartered Accountants (CAs). It allows users to upload documents (invoices, tax forms, etc.) and uses artificial intelligence to analyze them, extract relevant financial data, and provide summaries.</p>
+        
+        <h2>Core Features</h2>
+        <ul>
+            <li><strong>Intelligent Document Analysis:</strong> Upload invoices or tax forms directly from the mobile device for AI evaluation.</li>
+            <li><strong>Data Extraction:</strong> Automatically extract key financial metrics, health scores, and margins.</li>
+            <li><strong>Secure Client-Server Communication:</strong> Converts files to Base64 to securely transmit to Vercel Serverless Functions before querying Google Gemini.</li>
+            <li><strong>Enterprise-Grade Security:</strong> Hides API keys on the server to prevent exposure within the mobile app codebase.</li>
+        </ul>
+
+        <h2>Technologies and Tools Used</h2>
+        <table>
+            <tr><th>Category</th><th>Technologies</th></tr>
+            <tr><td>Frontend (Mobile)</td><td>React Native, Expo, Expo Router</td></tr>
+            <tr><td>Backend</td><td>Vercel Serverless Functions</td></tr>
+            <tr><td>AI Models</td><td>Google Gemini API (gemini-2.5-flash)</td></tr>
+            <tr><td>Deployment</td><td>EAS (Expo Application Services), Vercel</td></tr>
+        </table>
+
+        <h2>Concepts Used</h2>
+        <ul>
+            <li>Client-Server Architecture</li>
+            <li>Serverless Backend Functions</li>
+            <li>Multimodal Large Language Model (LLM) Integration</li>
+            <li>Base64 Encoding & Secure Transmission</li>
+            <li>Cross-Platform Mobile Development</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

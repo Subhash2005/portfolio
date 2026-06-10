@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventSphere AI – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>EventSphere AI - MVP Overview</h1>
+        
+        <h2>Project Overview</h2>
+        <p>EventSphere AI is an AI-powered event planning and vendor marketplace platform. It bridges the gap between people organizing events (Customers) and event service providers (Teams/Vendors). The platform automates budget breakdowns and packages while providing an extensive CRM for vendors.</p>
+        
+        <h2>Core Features</h2>
+        <ul>
+            <li><strong>AI Event Generation:</strong> Generates standard, premium, and luxury service packages using a Hugging Face LLM based on user inputs.</li>
+            <li><strong>Micro-Transaction Paywalls:</strong> A lead-generation model where customers pay a small fee via Razorpay to unlock vendor contacts.</li>
+            <li><strong>Vendor Operations (CRM):</strong> A comprehensive dashboard with a Kanban board to track leads and an inventory manager for services.</li>
+            <li><strong>Role-Based Routing:</strong> Strict separation of the app into /customer/ and /vendor/ routes.</li>
+        </ul>
+
+        <h2>Technologies and Tools Used</h2>
+        <table>
+            <tr><th>Category</th><th>Technologies</th></tr>
+            <tr><td>Frontend</td><td>React.js, Vite, Tailwind CSS, Framer Motion, React Router DOM, Recharts</td></tr>
+            <tr><td>Backend</td><td>Node.js, Express.js</td></tr>
+            <tr><td>Database</td><td>MongoDB Atlas, Mongoose</td></tr>
+            <tr><td>AI Generation</td><td>Hugging Face Inference API</td></tr>
+            <tr><td>Payments</td><td>Razorpay API</td></tr>
+        </table>
+
+        <h2>Concepts Used</h2>
+        <ul>
+            <li>MERN Stack Client-Server Architecture</li>
+            <li>Generative AI for Dynamic Content Creation</li>
+            <li>Role-Based Access Control (RBAC)</li>
+            <li>Micro-Transaction Payment Gateway Integration</li>
+            <li>Kanban-style CRM Management</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

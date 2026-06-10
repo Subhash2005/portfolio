@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Me Fit – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>Make Me Fit - MVP Overview</h1>
+        
+        <h2>MVP Overview</h2>
+        <p>"Make Me Fit" is a health and fitness tracking application designed to help users manage their lifestyle, diet, and routines. The MVP includes features like user authentication, a customizable dashboard, food and workout journaling, meal swapping, a grocery list generator, an AI or human coach interaction interface, and a barcode/food scanner. It utilizes a cross-platform mobile app frontend backed by a robust Node.js backend.</p>
+
+        <h2>Important Terminology</h2>
+        <ul>
+            <li><strong>Journal:</strong> A daily log where users track their meals, workouts, and possibly water intake or habits.</li>
+            <li><strong>Meal Swap:</strong> The ability for users to replace a suggested or logged meal with an alternative based on dietary preferences or calories.</li>
+            <li><strong>Scanner:</strong> A barcode or image recognition tool to quickly input food nutritional data into the journal.</li>
+            <li><strong>Coach:</strong> A module (could be AI-driven or connecting to human trainers) providing personalized fitness and diet advice.</li>
+            <li><strong>Grocery List:</strong> An auto-generated list of ingredients needed based on the user's planned meals for the week.</li>
+        </ul>
+
+        <h2>Main Concepts</h2>
+        <ul>
+            <li><strong>Holistic Tracking:</strong> Combining meal planning, grocery shopping, and workout logging in a single interface.</li>
+            <li><strong>Personalization:</strong> Using profile data and onboarding preferences to tailor dashboard metrics and meal suggestions.</li>
+            <li><strong>Frictionless Entry:</strong> Utilizing a scanner to reduce the manual effort of logging food items.</li>
+            <li><strong>Actionable Insights:</strong> Presenting data using charts (via fl_chart) and progress indicators (percent_indicator) to help users visualize their fitness journey.</li>
+        </ul>
+
+        <h2>Important Frameworks & Tools</h2>
+        <h3>Frontend (Mobile App)</h3>
+        <ul>
+            <li><strong>Framework:</strong> Flutter (Dart) - Allows a single codebase for Android and iOS.</li>
+            <li><strong>State Management:</strong> Provider - A robust and scalable way to manage application state across screens.</li>
+            <li><strong>UI Components:</strong> fl_chart & percent_indicator for data visualization, google_fonts, cupertino_icons.</li>
+            <li><strong>Utilities:</strong> image_picker, path_provider, pdf, printing, http.</li>
+        </ul>
+
+        <h3>Backend (API Services)</h3>
+        <ul>
+            <li><strong>Runtime & Framework:</strong> Node.js with Express.js - Fast web framework for building RESTful APIs.</li>
+            <li><strong>Database Modeler:</strong> Mongoose - Elegant MongoDB object modeling for Node.js.</li>
+            <li><strong>External Services:</strong> Firebase Admin SDK - Used for robust authentication, push notifications, or file storage.</li>
+            <li><strong>Environment:</strong> dotenv for configuration and cors for cross-origin resource sharing.</li>
+        </ul>
+
+        <h2>Models (Data Structures)</h2>
+        <ul>
+            <li><strong>User / Profile:</strong> Stores credentials, demographics, goals, and preferences.</li>
+            <li><strong>Journal Entry:</strong> Represents daily logs (MealEntry, WorkoutEntry).</li>
+            <li><strong>Food Item:</strong> Contains macronutrients, calories, and barcode data.</li>
+            <li><strong>Grocery List:</strong> An aggregated collection of ingredients derived from planned meals.</li>
+            <li><strong>Coach Session/Message:</strong> Logs of communication or AI prompts regarding user guidance.</li>
+        </ul>
+
+        <h2>Architecture Used</h2>
+        <ul>
+            <li><strong>Frontend Architecture (Flutter):</strong> Screen-Based Routing, Main Tab Navigation, Provider Pattern.</li>
+            <li><strong>Backend Architecture (Node.js):</strong> RESTful API, NoSQL Database (MongoDB), Integration Layer (Firebase Admin).</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkLearn AI – MVP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
+        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
+        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+        p, li { color: var(--text-muted); margin-bottom: 10px; }
+        ul { margin-left: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
+        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
+    </style>
+</head>
+<body>
+    <div class="mvp-container glass-panel">
+        <h1>ThinkLearn AI - MVP Overview</h1>
+        
+        <h2>Project Overview</h2>
+        <p>ThinkLearn AI is an advanced Concept Learning Tutor that flips the traditional AI chatbot paradigm. Instead of acting as an "answer machine" that hands out immediate solutions, it acts as a mentor. Its primary goal is to help users THINK, REASON, and DISCOVER answers themselves. It achieves this by assessing user knowledge levels, breaking complex concepts into manageable chunks, and using a Socratic teaching style that heavily relies on guided questioning and hints.</p>
+        
+        <h2>Core Features</h2>
+        <ul>
+            <li><strong>Assess Prior Knowledge:</strong> Always gauges where the user stands before introducing new information.</li>
+            <li><strong>Socratic Learning:</strong> Asks guiding questions ("Why do you think that?", "What if this condition changed?") before giving explanations.</li>
+            <li><strong>Adaptive Difficulty:</strong> Automatically adjusts the complexity of examples based on whether the user is struggling or succeeding.</li>
+            <li><strong>Progressive 3-Tier Hint System:</strong> Gradually reveals clues (Level 1, Level 2, Level 3) instead of jumping straight to the solution.</li>
+            <li><strong>Daily Revision AI:</strong> If a user returns the next day, the system recalls the previous session summary and tests retention before moving on.</li>
+            <li><strong>Curiosity Mode:</strong> Promotes exploration by constantly prompting the user with "Why?", "How?", and "Can you predict?".</li>
+        </ul>
+
+        <h2>Technologies and Tools Used</h2>
+        <table>
+            <tr><th>Category</th><th>Technologies</th></tr>
+            <tr><td>Frontend</td><td>React.js (v19), Vite, React Markdown, Axios</td></tr>
+            <tr><td>Backend</td><td>Node.js, Express.js, Cors, Dotenv</td></tr>
+            <tr><td>Database</td><td>MongoDB, Mongoose</td></tr>
+            <tr><td>AI Models & SDKs</td><td>Google GenAI SDK (Gemini), Groq SDK (LLaMA/Mixtral)</td></tr>
+        </table>
+
+        <h2>Concepts Used</h2>
+        <ul>
+            <li>Socratic Teaching Philosophy</li>
+            <li>Knowledge Chunking</li>
+            <li>Active Learning & Recall</li>
+            <li>Dynamic Learner Level Categorization</li>
+            <li>Adaptive AI Difficulty Scaling</li>
+        </ul>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        </div>
+    </div>
+</body>
+</html>
