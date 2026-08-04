@@ -3,23 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MedHelp – MVP</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>MedHelp — MVP Document | Subhash</title>
+    <meta name="theme-color" content="#06070c">
+    <meta name="description" content="MVP documentation for MedHelp — features, architecture, technology stack and concepts. Built by Subhash.">
+    <meta name="author" content="Subhash">
+    <link rel="canonical" href="https://subhashportfolio-phi.vercel.app/medhelp_mvp.html">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="Subhash.dev">
+    <meta property="og:url" content="https://subhashportfolio-phi.vercel.app/medhelp_mvp.html">
+    <meta property="og:title" content="MedHelp — MVP Document | Subhash S">
+    <meta property="og:description" content="Uses Gemini 2.5 Flash vision to make prescription information accessible, safer and cheaper to verify — no OCR middle layer.">
+    <meta property="og:image" content="https://subhashportfolio-phi.vercel.app/og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MedHelp — MVP Document | Subhash S">
+    <meta name="twitter:description" content="Uses Gemini 2.5 Flash vision to make prescription information accessible, safer and cheaper to verify — no OCR middle layer.">
+    <meta name="twitter:image" content="https://subhashportfolio-phi.vercel.app/og.jpg">
+    <link rel="preload" href="fonts/PlusJakartaSans-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        .mvp-container { max-width: 800px; margin: 50px auto; padding: 40px; }
-        h1, h2, h3 { color: var(--accent); margin-bottom: 15px; margin-top: 30px;}
-        h1 { font-size: 2.5rem; text-align: center; background: linear-gradient(to right, var(--accent), var(--accent-glow)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-        p, li { color: var(--text-muted); margin-bottom: 10px; }
-        ul { margin-left: 20px; margin-bottom: 20px; }
-        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        th, td { padding: 12px; border: 1px solid var(--glass-border); text-align: left; color: var(--text-muted); }
-        th { background: rgba(255,255,255,0.05); color: var(--text-main); font-weight: 600;}
-    </style>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "headline": "MedHelp — MVP Document",
+      "description": "Uses Gemini 2.5 Flash vision to make prescription information accessible, safer and cheaper to verify — no OCR middle layer.",
+      "url": "https://subhashportfolio-phi.vercel.app/medhelp_mvp.html",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://subhashportfolio-phi.vercel.app/#person"
+      },
+      "publisher": {
+        "@id": "https://subhashportfolio-phi.vercel.app/#person"
+      },
+      "about": {
+        "@type": "SoftwareApplication",
+        "name": "MedHelp",
+        "url": "https://lnkd.in/gfDZzN9G",
+        "applicationCategory": "MobileApplication",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Portfolio",
+          "item": "https://subhashportfolio-phi.vercel.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Work",
+          "item": "https://subhashportfolio-phi.vercel.app/#work"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "MedHelp — MVP Document"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://subhashportfolio-phi.vercel.app/#person",
+      "name": "Subhash S",
+      "url": "https://subhashportfolio-phi.vercel.app/",
+      "jobTitle": "Full-Stack, Mobile & AI Agent Developer",
+      "sameAs": [
+        "https://linkedin.com/in/subhash-s-63369a257/",
+        "https://github.com/Subhash2005"
+      ]
+    }
+  ]
+}
+    </script>
 </head>
-<body>
+<body class="doc-page">
+<svg class="i-sprite" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden"><defs><symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></symbol><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol></defs></svg>
+
+<div class="ambient" aria-hidden="true">
+    <div class="ambient-grid"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="ambient-noise"></div>
+</div>
+
+<header class="nav scrolled">
+    <div class="nav-inner">
+        <a href="index.html" class="brand" aria-label="Subhash — home">
+            <span class="brand-mark">S</span>
+            <span class="brand-text">Subhash<em>.dev</em></span>
+        </a>
+        <nav class="nav-links doc-nav" aria-label="Primary">
+            <a href="index.html#work" class="nav-link">All work</a>
+            <a href="index.html#contact" class="btn btn-primary nav-cta">Start a project <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </nav>
+    </div>
+</header>
+
     <div class="mvp-container glass-panel">
         <h1>MedHelp : Medicinal help agent</h1>
+        <p class="mvp-kicker">MVP Document · Product specification</p>
         
         <h2>1. Terminology & Core Concepts</h2>
         <ul>
@@ -58,10 +154,17 @@
             <li><strong>Interaction Pillbox:</strong> A virtual safety net that warns users if mixing their current medications is dangerous.</li>
             <li><strong>Role-Based Medical Database:</strong> Explains drugs differently depending on if the user is a normal patient, a pharmacology student, or a doctor.</li>
         </ul>
-
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="index.html" class="btn primary-btn">Back to Portfolio</a>
+        <div class="mvp-footer">
+            <div>
+                <h3>Want something like this built?</h3>
+                <p>I take products from idea to production — web, mobile and AI agents.</p>
+            </div>
+            <div class="mvp-footer-actions">
+                <a href="index.html#work" class="btn btn-ghost"><svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg> All projects</a>
+                <a href="index.html#contact" class="btn btn-primary">Start a project <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            </div>
         </div>
+
     </div>
 </body>
 </html>

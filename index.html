@@ -1,502 +1,1334 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- SEO Optimization -->
-    <title>Subhash | Portfolio</title>
-    <meta name="description" content="Subhash's professional portfolio showcasing Web Development, App Development, and AI Agent Development projects. Actively seeking roles in Software Engineering.">
-    <meta name="keywords" content="Subhash, Portfolio, Software Engineering, Web Development, App Development, AI Agent Development, React, Node.js, AI Automation">
-    <meta name="author" content="Subhash">
-    <meta name="google-site-verification" content="N5Z0H0_1vQYcFkRQWMteyC7i741UHWsh6uoXGen3sdY" />
-    <link rel="canonical" href="https://subhashportfolio-phi.vercel.app/">
-    
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon.png">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://subhashportfolio-phi.vercel.app/">
-    <meta property="og:title" content="Subhash | Professional Portfolio">
-    <meta property="og:description" content="Discover Subhash's projects in Web, App, and AI Agent Development. Actively seeking Software Engineering roles.">
-    <meta property="og:image" content="https://subhashportfolio-phi.vercel.app/favicon.png">
-    
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://subhashportfolio-phi.vercel.app/">
-    <meta property="twitter:title" content="Subhash | Professional Portfolio">
-    <meta property="twitter:description" content="Discover Subhash's projects in Web, App, and AI Agent Development. Actively seeking Software Engineering roles.">
-    <meta property="twitter:image" content="https://subhashportfolio-phi.vercel.app/favicon.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#06070c">
+    <meta name="color-scheme" content="dark">
+    <meta name="format-detection" content="telephone=no">
 
-    <!-- Structured Data (JSON-LD) -->
+    <!-- ============ SEO ============ -->
+    <title>Subhash S — Full-Stack, Mobile &amp; AI Agent Developer | Portfolio</title>
+    <meta name="description" content="Subhash S is a full-stack, mobile and AI agent developer in Chennai, India. 16 shipped products across React, Node.js, Flutter, React Native, FastAPI and LLM automation. Available for freelance projects and full-time software engineering roles.">
+    <meta name="keywords" content="Subhash, Subhash S, Subhash portfolio, Subhash developer, full stack developer Chennai, AI agent developer, React developer, Flutter developer, React Native developer, FastAPI, freelance web developer India, Sri Sairam Institute of Technology">
+    <meta name="author" content="Subhash S">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="google-site-verification" content="N5Z0H0_1vQYcFkRQWMteyC7i741UHWsh6uoXGen3sdY">
+    <link rel="canonical" href="https://subhashportfolio-phi.vercel.app/">
+
+    <!-- identity: ties this page to the same person across the web -->
+    <link rel="me" href="https://linkedin.com/in/subhash-s-63369a257/">
+    <link rel="me" href="https://github.com/Subhash2005">
+    <link rel="me" href="https://leetcode.com/u/subhash14/">
+    <link rel="me" href="mailto:subhash1422005s@gmail.com">
+
+    <!-- ============ Icons / PWA ============ -->
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="apple-mobile-web-app-title" content="Subhash.dev">
+    <meta name="application-name" content="Subhash.dev">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- ============ Social ============ -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Subhash.dev">
+    <meta property="og:locale" content="en_IN">
+    <meta property="og:url" content="https://subhashportfolio-phi.vercel.app/">
+    <meta property="og:title" content="Subhash S — Full-Stack, Mobile &amp; AI Agent Developer">
+    <meta property="og:description" content="16 shipped products across web, mobile and AI agents. Idea to deployed product — architecture, design, engineering and handover.">
+    <meta property="og:image" content="https://subhashportfolio-phi.vercel.app/og.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Subhash S — Full-Stack, Mobile and AI Agent Developer. 16+ products shipped.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://subhashportfolio-phi.vercel.app/">
+    <meta name="twitter:title" content="Subhash S — Full-Stack, Mobile &amp; AI Agent Developer">
+    <meta name="twitter:description" content="16 shipped products across web, mobile and AI agents. Idea to deployed product.">
+    <meta name="twitter:image" content="https://subhashportfolio-phi.vercel.app/og.jpg">
+    <meta name="twitter:image:alt" content="Subhash S — Full-Stack, Mobile and AI Agent Developer">
+
+    <!-- ============ Performance hints ============ -->
+    <link rel="preconnect" href="https://res.cloudinary.com" crossorigin>
+    <link rel="dns-prefetch" href="https://res.cloudinary.com">
+
+    <link rel="preload" href="fonts/PlusJakartaSans-600-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Inter-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ============ Structured data ============ -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Subhash",
-      "url": "https://subhashportfolio-phi.vercel.app/",
-      "image": "https://subhashportfolio-phi.vercel.app/favicon.png",
-      "sameAs": [
-        "https://linkedin.com/in/subhash-s-63369a257/",
-        "https://github.com/Subhash2005",
-        "https://www.instagram.com/subhash.s_official/"
-      ],
-      "jobTitle": "Software Engineer & Web Developer",
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Freelance"
-      }
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://subhashportfolio-phi.vercel.app/#person",
+          "name": "Subhash S",
+          "alternateName": "Subhash",
+          "url": "https://subhashportfolio-phi.vercel.app/",
+          "image": "https://subhashportfolio-phi.vercel.app/og.jpg",
+          "email": "mailto:subhash1422005s@gmail.com",
+          "telephone": "+91-7695903778",
+          "jobTitle": "Full-Stack, Mobile & AI Agent Developer",
+          "description": "Full-stack, mobile and AI agent developer who takes products from idea to deployed software — web platforms, cross-platform apps and LLM-powered agents.",
+          "address": { "@type": "PostalAddress", "addressLocality": "Chennai", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+          "alumniOf": { "@type": "CollegeOrUniversity", "name": "Sri Sairam Institute of Technology", "address": { "@type": "PostalAddress", "addressLocality": "Chennai", "addressCountry": "IN" } },
+          "worksFor": { "@type": "Organization", "name": "Freelance" },
+          "knowsAbout": ["Web Development","Mobile App Development","AI Agents","LLM Automation","React","Next.js","Node.js","Express","Python","FastAPI","Flutter","React Native","MongoDB","Firebase","Retrieval Augmented Generation"],
+          "knowsLanguage": ["English","Tamil"],
+          "sameAs": [
+            "https://linkedin.com/in/subhash-s-63369a257/",
+            "https://github.com/Subhash2005",
+            "https://leetcode.com/u/subhash14/",
+            "https://www.instagram.com/subhash.s_official/"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://subhashportfolio-phi.vercel.app/#website",
+          "url": "https://subhashportfolio-phi.vercel.app/",
+          "name": "Subhash S — Developer Portfolio",
+          "inLanguage": "en",
+          "publisher": { "@id": "https://subhashportfolio-phi.vercel.app/#person" }
+        },
+        {
+          "@type": "ProfilePage",
+          "@id": "https://subhashportfolio-phi.vercel.app/#webpage",
+          "url": "https://subhashportfolio-phi.vercel.app/",
+          "name": "Subhash S — Full-Stack, Mobile & AI Agent Developer",
+          "isPartOf": { "@id": "https://subhashportfolio-phi.vercel.app/#website" },
+          "about": { "@id": "https://subhashportfolio-phi.vercel.app/#person" },
+          "mainEntity": { "@id": "https://subhashportfolio-phi.vercel.app/#person" }
+        },
+        {
+          "@type": "Service",
+          "name": "Web platform, mobile app and AI agent development",
+          "provider": { "@id": "https://subhashportfolio-phi.vercel.app/#person" },
+          "areaServed": "Worldwide",
+          "serviceType": ["Web Development","Mobile App Development","AI Agent Development","Automation"]
+        }
+      ]
     }
     </script>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- FontAwesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Products built by Subhash S",
+  "description": "Web platforms, mobile applications and AI agents designed and built end to end by Subhash S.",
+  "numberOfItems": 16,
+  "itemListOrder": "https://schema.org/ItemListUnordered",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Aura Attend",
+        "alternateName": "Aura Attend — Smart attendance & campus management",
+        "description": "A full-stack attendance and management platform built around secure authentication, cloud media storage and real-time data for institutions and organisations.",
+        "url": "https://aura-attend.vercel.app/",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "React, Node.js, OpenCV, MongoDB",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "Aura Attend — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/aura_attend_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "LifeLink+",
+        "alternateName": "LifeLink+ — Medical crowdfunding with verification",
+        "description": "Built for donor trust: strict document verification, transparent fund usage and real-time campaign tracking on a scalable architecture.",
+        "url": "https://lifeline-fontend.vercel.app",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "React, Express, MongoDB, JWT",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "LifeLink+ — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/lifelink_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "FancyBazaar",
+        "alternateName": "FancyBazaar — Retail, wholesale & trading marketplace",
+        "description": "A unified commerce ecosystem where each buyer and seller type gets a dedicated experience on top of shared, scalable infrastructure.",
+        "url": "https://fancy-bazar-three.vercel.app",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "React, Vite, Node.js, Atlas",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "FancyBazaar — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/fancybazaar_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "EventSphere AI",
+        "alternateName": "EventSphere AI — Event marketplace & vendor CRM",
+        "description": "Centralises a fragmented industry: vendors manage leads and packages while customers get AI-assisted budgets and matched suppliers.",
+        "url": "https://eventsphere-ai.vercel.app",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "MERN, Tailwind, Framer Motion, LLM",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "EventSphere AI — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/eventsphere_ai_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "EquiBridge",
+        "alternateName": "EquiBridge — Accessible opportunity ecosystem",
+        "description": "Accessibility-first design: voice-guided navigation, universal language support and tailored tools for each community the platform serves.",
+        "url": "https://equi-weld.vercel.app",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "FastAPI, Python, React, Atlas",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "EquiBridge — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/equibridge_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "QueueLess",
+        "alternateName": "QueueLess — Smart queue & token management",
+        "description": "A mobile-first queue platform with cloud integration and real-time monitoring for counters, clinics and service centres.",
+        "url": "https://shorturl.at/7txE8",
+        "applicationCategory": "MobileApplication",
+        "operatingSystem": "Android, iOS",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "Flutter, FastAPI, Firebase, MongoDB",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "QueueLess — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/queueless_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "MedHelp",
+        "alternateName": "MedHelp — Vision-AI medical assistant",
+        "description": "Uses Gemini 2.5 Flash vision to make prescription information accessible, safer and cheaper to verify — no OCR middle layer.",
+        "url": "https://lnkd.in/gfDZzN9G",
+        "applicationCategory": "MobileApplication",
+        "operatingSystem": "Android, iOS",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "React Native, Expo, Gemini Vision",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "MedHelp — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/medhelp_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Happy Cook",
+        "alternateName": "Happy Cook — Restaurant operations platform",
+        "description": "A full-cycle operations engine for local food businesses — ordering, delivery tracking, payments and receipts in one loop.",
+        "url": "https://expo.dev/accounts/subhash14/projects/frontend/builds/8111d959-6132-4b56-a724-04ec49791411",
+        "applicationCategory": "MobileApplication",
+        "operatingSystem": "Android, iOS",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "React Native, Expo EAS, Node.js, Razorpay",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "Happy Cook — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/happy_cook_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Manitham",
+        "alternateName": "Manitham — Civic issue resolution marketplace",
+        "description": "Community action instead of dead complaint tickets: report an issue, get it verified, auction the work, track budget and completion.",
+        "url": "https://l1nk.dev/poc1oe8",
+        "applicationCategory": "MobileApplication",
+        "operatingSystem": "Android, iOS",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "Flutter, Firebase, Firestore",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "Manitham — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/manitham_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "CA Companion",
+        "alternateName": "CA Companion — AI assistant for chartered accountants",
+        "description": "An intelligent analysis engine that replaces manual entry while keeping sensitive documents on an enterprise-grade secure path.",
+        "url": "https://expo.dev/accounts/subhash14/projects/ca-companion/builds/9065b39c-874e-4b2b-8c3f-684a1f2adcf9",
+        "applicationCategory": "MobileApplication",
+        "operatingSystem": "Android, iOS",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "React Native, Serverless, Gemini",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "CA Companion — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/ca_companion_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Make Me Fit",
+        "alternateName": "Make Me Fit — Health & nutrition ecosystem",
+        "description": "Built to remove friction from wellness — logging takes seconds and the app suggests the next best action instead of only counting calories.",
+        "url": "https://shorturl.at/hn47a",
+        "applicationCategory": "MobileApplication",
+        "operatingSystem": "Android, iOS",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "Flutter, Node.js, MongoDB",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "Make Me Fit — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/make_me_fit_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "UPI Care",
+        "alternateName": "UPI Care — AI customer support for payments",
+        "description": "An AI-driven support layer for digital payments — automated triage, guided resolution and ticket management for UPI issues.",
+        "url": "https://upicare.vercel.app/",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "React, FastAPI, NLP, MongoDB",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "UPI Care — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/upi_care_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Cyber SOC",
+        "alternateName": "Cyber SOC — AI-driven threat detection centre",
+        "description": "Real-time telemetry meets contextual AI reasoning, semantic search and OSINT enrichment over a graph-based threat model.",
+        "url": "https://cyber-soc-ivory.vercel.app",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "FastAPI, WebSockets, ChromaDB, Gemini",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "Cyber SOC — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/cyber_soc_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "ThinkLearn AI",
+        "alternateName": "ThinkLearn AI — Socratic concept-learning tutor",
+        "description": "Not a chatbot — a personalised learning engine that applies the Socratic method and tracks concept mastery over time.",
+        "url": "https://think-ai-tan.vercel.app",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "React, Express, Gemini, Groq",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "ThinkLearn AI — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/thinklearn_ai_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "News Chronicle AI",
+        "alternateName": "News Chronicle AI — Real-time news intelligence",
+        "description": "Bridges raw global news and actionable insight with retrieval-augmented conversation and a premium editorial interface.",
+        "url": "https://news-chronicle-ai.vercel.app",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "FastAPI, React, RAG, Python",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        },
+        "subjectOf": {
+          "@type": "CreativeWork",
+          "name": "News Chronicle AI — MVP document",
+          "url": "https://subhashportfolio-phi.vercel.app/news_chronicle_ai_mvp.html"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "TravelMind AI",
+        "alternateName": "TravelMind AI — Autonomous travel agent",
+        "description": "Multi-step tool execution drives the planning loop — the agent decides what to look up next and organises results conversationally.",
+        "url": "https://travel-mind-ai-seven.vercel.app",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any (web browser)",
+        "author": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "creator": {
+          "@id": "https://subhashportfolio-phi.vercel.app/#person"
+        },
+        "keywords": "Next.js 16, AI SDK, Llama 3.1, Groq",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "INR"
+        }
+      }
+    }
+  ]
+}
+    </script>
 </head>
 <body>
+<svg class="i-sprite" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden"><defs><symbol id="i-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></symbol><symbol id="i-arrow-left" viewBox="0 0 24 24"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></symbol><symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol><symbol id="i-arrow-up" viewBox="0 0 24 24"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></symbol><symbol id="i-arrow-up-right-from-square" viewBox="0 0 24 24"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></symbol><symbol id="i-award" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.48 12.89 17 22l-5-3-5 3 1.52-9.11"/></symbol><symbol id="i-book-open" viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3Z"/></symbol><symbol id="i-briefcase" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="7" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></symbol><symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol><symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></symbol><symbol id="i-comment-dots" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8Z"/><path d="M8.5 12h.01"/><path d="M12 12h.01"/><path d="M15.5 12h.01"/></symbol><symbol id="i-envelope" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol><symbol id="i-file-arrow-down" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v5h6"/><path d="M12 12v6"/><path d="m9 15 3 3 3-3"/></symbol><symbol id="i-file-lines" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v5h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></symbol><symbol id="i-file-signature" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-5"/><path d="M14 2v5h6"/><path d="M8 13h4"/><path d="M21.4 9.6a2 2 0 0 0-2.8-2.8L14 11.4V15h3.6Z"/></symbol><symbol id="i-flag" viewBox="0 0 24 24"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><path d="M4 22v-7"/></symbol><symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol><symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></symbol><symbol id="i-hand-holding-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5"/><path d="M2 20h4l3 2h6l3-2h4"/></symbol><symbol id="i-hand-pointer" viewBox="0 0 24 24"><path d="M22 14a8 8 0 0 1-8 8"/><path d="M18 11v-1a2 2 0 0 0-4 0"/><path d="M14 10V9a2 2 0 0 0-4 0v1"/><path d="M10 9.5V4a2 2 0 0 0-4 0v10"/><path d="M18 11a2 2 0 1 1 4 0v3a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></symbol><symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37Z"/><path d="M17.5 6.5h.01"/></symbol><symbol id="i-layer-group" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7l10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol><symbol id="i-linkedin-in" viewBox="0 0 24 24"><path d="M4.5 9H8v12H4.5z" fill="currentColor" stroke="none"/><circle cx="6.25" cy="4.75" r="2.25" fill="currentColor" stroke="none"/><path d="M10.5 9H14v1.8a4 4 0 0 1 3.6-2c2.9 0 4.4 1.9 4.4 5.3V21h-3.5v-6.2c0-1.6-.6-2.7-2-2.7s-2.5 1-2.5 2.7V21h-3.5z" fill="currentColor" stroke="none"/></symbol><symbol id="i-mobile-screen-button" viewBox="0 0 24 24"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></symbol><symbol id="i-paper-plane" viewBox="0 0 24 24"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4Z"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></symbol><symbol id="i-robot" viewBox="0 0 24 24"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></symbol><symbol id="i-trophy" viewBox="0 0 24 24"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></symbol><symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol><symbol id="i-xmark" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol></defs></svg>
 
-    <!-- Header Section -->
-    <header id="main-header" class="interactive-header">
-        <h1>Hi, I'm <span>Subhash</span></h1>
-        <p style="font-size: 1.2rem; color: var(--text-muted); margin-top: 10px;">Actively Seeking Roles In:</p>
-        <p style="font-size: 1rem; color: var(--accent); margin-top: 5px; font-weight: 600;">Software Engineering | Web & App Development | AI Agent Development</p>
-        <p class="click-hint" style="margin-top: 25px;"><i class="fa-solid fa-chevron-down"></i> Click to view profile</p>
-    </header>
+<!-- Scroll progress -->
+<div class="scroll-progress" aria-hidden="true"><span id="progress-bar"></span></div>
 
-    <!-- Expandable Profile Section -->
-    <section id="profile-section" class="profile-container hidden">
-        <div class="profile-card glass-panel">
-            <div class="profile-content">
-                <h2>Subhash</h2>
-                <div class="profile-details">
-                    <div class="detail-item">
-                        <i class="fa-solid fa-graduation-cap"></i>
+<!-- Ambient background -->
+<div class="ambient" aria-hidden="true">
+    <div class="ambient-grid"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="ambient-noise"></div>
+</div>
+
+<a class="skip-link" href="#work">Skip to work</a>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="#home" class="brand" aria-label="Subhash — home">
+            <span class="brand-mark">S</span>
+            <span class="brand-text">Subhash<em>.dev</em></span>
+        </a>
+
+        <nav class="nav-links" id="nav-links" aria-label="Primary">
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#work" class="nav-link">Work</a>
+            <a href="#process" class="nav-link">Process</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#contact" class="btn btn-primary nav-cta">Start a project <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+        </nav>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+<main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+        <div class="container hero-grid">
+            <div class="hero-copy">
+                <div class="status-pill" data-reveal>
+                    <span class="status-dot"></span> Available for freelance projects &amp; full-time roles
+                </div>
+
+                <h1 class="hero-title" data-reveal>
+                    I turn ideas into
+                    <span class="gradient-text">products people actually use.</span>
+                </h1>
+
+                <p class="hero-lead" data-reveal>
+                    I'm <strong>Subhash</strong> — a full-stack, mobile and AI-agent developer. I take a rough idea
+                    through architecture, interface design and engineering, and hand back a live, deployed product
+                    with documentation you can hand to your team.
+                </p>
+
+                <div class="hero-actions" data-reveal>
+                    <a href="#work" class="btn btn-primary btn-lg">See the work <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+                    <a href="#contact" class="btn btn-ghost btn-lg">Book a free consult</a>
+                    <a href="https://drive.google.com/file/d/191AZjnPgAwqh2RO1QoX8CdTheroGEIYy/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-link btn-lg"><svg class="icon" aria-hidden="true"><use href="#i-file-arrow-down"/></svg> Résumé</a>
+                </div>
+
+                <ul class="hero-stats" data-reveal>
+                    <li><strong data-count="16" data-suffix="+">0</strong><span>Products shipped</span></li>
+                    <li><strong data-count="3">0</strong><span>Industry internships</span></li>
+                    <li><strong data-count="2">0</strong><span>Hackathons won</span></li>
+                    <li><strong data-count="1">0</strong><span>Patent published</span></li>
+                </ul>
+            </div>
+
+            <aside class="hero-card" data-reveal>
+                <div class="hero-card-glow"></div>
+                <div class="hero-card-inner glass-panel">
+                    <div class="hc-top">
+                        <div class="hc-avatar">S</div>
                         <div>
-                            <h3>Education</h3>
-                            <p>Sri Sairam Institute of Technology (May 2022 - 2026)<br>CGPA: 8.63</p>
+                            <h2 class="hc-name">Subhash S</h2>
+                            <p class="hc-role">Full-Stack · Mobile · AI Agents</p>
                         </div>
                     </div>
-                    <div class="detail-item">
-                        <i class="fa-solid fa-briefcase"></i>
-                        <div>
-                            <h3>Professional Background</h3>
-                            <p>Web Developer, App Developer, AI Agent Developer, and AI Automation.</p>
-                        </div>
+
+                    <dl class="hc-facts">
+                        <div><dt>Based in</dt><dd>Chennai, India · Remote worldwide</dd></div>
+                        <div><dt>Focus</dt><dd>Web platforms, cross-platform apps, LLM agents</dd></div>
+                        <div><dt>Education</dt><dd>B.E. — Sri Sairam Institute of Technology · CGPA 8.63</dd></div>
+                        <div><dt>Response time</dt><dd>Usually within 24 hours</dd></div>
+                    </dl>
+
+                    <div class="hc-stack">
+                        <span>React</span><span>Node.js</span><span>Flutter</span>
+                        <span>React&nbsp;Native</span><span>FastAPI</span><span>MongoDB</span>
                     </div>
-                    <div class="detail-item">
-                        <i class="fa-solid fa-trophy"></i>
-                        <div>
-                            <h3>Achievements</h3>
-                            <ul style="color: var(--text-muted); font-size: 0.9rem; margin-left: 20px;">
-                                <li>Winner – SDG Hackathon Solvethon 3.0 & EXTENZIA 4.0</li>
-                                <li>Published Research Paper at DJS Spark</li>
-                                <li>Published Patent under Intellectual Property India</li>
-                                <li>Led INFYRA 24, Verbatron 1.0 & IEEE Workshop</li>
-                                <li>Participated in SIH, SAP Hackfest & Talkathon</li>
-                                <li>Volunteered in UBA Tech Outreach Programs</li>
-                            </ul>
-                        </div>
+
+                    <div class="hc-socials">
+                        <a href="https://linkedin.com/in/subhash-s-63369a257/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin-in"/></svg></a>
+                        <a href="https://github.com/Subhash2005" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a>
+                        <a href="https://leetcode.com/u/subhash14/" target="_blank" rel="noopener" aria-label="LeetCode"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg></a>
+                        <a href="mailto:subhash1422005s@gmail.com" aria-label="Email"><svg class="icon" aria-hidden="true"><use href="#i-envelope"/></svg></a>
                     </div>
-                    <div class="detail-item">
-                        <i class="fa-solid fa-laptop-code"></i>
-                        <div>
-                            <h3>Internships</h3>
-                            <ul style="color: var(--text-muted); font-size: 0.9rem; margin-left: 20px;">
-                                <li><strong>Precision Biometric India Pvt Ltd</strong> - Software Testing</li>
-                                <li><strong>Nullclass EdTech Pvt Ltd</strong> - Web Developer</li>
-                                <li><strong>Evastro Ventures Pvt Ltd</strong> - Data Science</li>
-                            </ul>
+                </div>
+            </aside>
+        </div>
+
+        <a href="#services" class="scroll-cue" aria-hidden="true"><span></span>Scroll</a>
+    </section>
+
+    <!-- ============ TECH MARQUEE ============ -->
+    <section class="marquee-section" aria-label="Technologies I work with">
+        <div class="marquee">
+            <div class="marquee-track">
+                <div class="marquee-group">
+                    <span>React.js</span><span>Next.js</span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+                    <span>Python</span><span>FastAPI</span><span>Flutter</span><span>React Native</span><span>Expo</span>
+                    <span>Firebase</span><span>Tailwind CSS</span><span>Vite</span><span>OpenCV</span><span>Gemini</span>
+                    <span>Groq</span><span>Vercel</span><span>Git</span>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
+                    <span>React.js</span><span>Next.js</span><span>Node.js</span><span>Express</span><span>MongoDB</span>
+                    <span>Python</span><span>FastAPI</span><span>Flutter</span><span>React Native</span><span>Expo</span>
+                    <span>Firebase</span><span>Tailwind CSS</span><span>Vite</span><span>OpenCV</span><span>Gemini</span>
+                    <span>Groq</span><span>Vercel</span><span>Git</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+        <div class="container">
+            <header class="section-head" data-reveal>
+                <p class="eyebrow"><span></span>What I do</p>
+                <h2 class="section-title">Three ways I help teams ship</h2>
+                <p class="section-lead">Every engagement ends the same way: a working product in production, source code you own,
+                    and a written handover doc — not a prototype that dies on a laptop.</p>
+            </header>
+
+            <div class="services-rail">
+                <article class="service-band" data-reveal>
+                    <div class="band-index"><span>01</span></div>
+                    <div class="band-main">
+                        <div class="band-title">
+                            <span class="band-icon"><svg class="icon" aria-hidden="true"><use href="#i-globe"/></svg></span>
+                            <h3>Web Platforms</h3>
+                        </div>
+                        <p class="band-lead">Full-stack products with role-based dashboards, payments, auth and analytics — built to handle real users from day one.</p>
+                        <p class="band-meta">Typical build · 3–6 weeks</p>
+                    </div>
+                    <ul class="band-list"><li>React / Next.js front-ends</li><li>Node.js, Express &amp; FastAPI APIs</li><li>MongoDB Atlas, JWT auth, Cloudinary</li><li>Admin dashboards &amp; reporting</li></ul>
+                </article>
+
+                <article class="service-band is-featured" data-reveal>
+                    <div class="band-index"><span>02</span></div>
+                    <div class="band-main">
+                        <div class="band-title">
+                            <span class="band-icon"><svg class="icon" aria-hidden="true"><use href="#i-robot"/></svg></span>
+                            <h3>AI Agents &amp; Automation</h3><span class="band-badge">Most requested</span>
+                        </div>
+                        <p class="band-lead">LLM-powered agents that do work, not just chat — tool calling, retrieval over your own data, and human-in-the-loop review.</p>
+                        <p class="band-meta">Typical build · 2–5 weeks</p>
+                    </div>
+                    <ul class="band-list"><li>Agentic workflows with tool execution</li><li>RAG over documents &amp; live feeds</li><li>Gemini, Groq, Llama &amp; Vercel AI SDK</li><li>Support, triage &amp; back-office automation</li></ul>
+                </article>
+
+                <article class="service-band" data-reveal>
+                    <div class="band-index"><span>03</span></div>
+                    <div class="band-main">
+                        <div class="band-title">
+                            <span class="band-icon"><svg class="icon" aria-hidden="true"><use href="#i-mobile-screen-button"/></svg></span>
+                            <h3>Mobile Apps</h3>
+                        </div>
+                        <p class="band-lead">Cross-platform apps for Android and iOS from a single codebase — shipped to stores or distributed as signed builds.</p>
+                        <p class="band-meta">Typical build · 4–8 weeks</p>
+                    </div>
+                    <ul class="band-list"><li>Flutter &amp; React Native (Expo EAS)</li><li>Firebase, real-time sync, push</li><li>Payments, QR, camera &amp; vision features</li><li>Store-ready builds and releases</li></ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ WORK ============ -->
+    <section class="section section-work" id="work">
+        <div class="container">
+            <header class="section-head" data-reveal>
+                <p class="eyebrow"><span></span>Selected work</p>
+                <h2 class="section-title">16 products, built end to end</h2>
+                <p class="section-lead">Every one is live and running. Watch the preview, open the case study, or jump
+                    straight into the product.</p>
+            </header>
+
+            <div class="work-toolbar" data-reveal>
+                <div class="filters" role="group" aria-label="Filter projects by category">
+                    <button class="filter-btn is-active" data-filter="all" aria-pressed="true">All <em>16</em></button>
+                    <button class="filter-btn" data-filter="web" aria-pressed="false">Web <em>5</em></button>
+                    <button class="filter-btn" data-filter="app" aria-pressed="false">Mobile <em>6</em></button>
+                    <button class="filter-btn" data-filter="ai" aria-pressed="false">AI Agents <em>5</em></button>
+                </div>
+                <p class="work-hint"><svg class="icon" aria-hidden="true"><use href="#i-hand-pointer"/></svg> Hover to preview · click for the full case study</p>
+            </div>
+
+            <div class="reel" id="reel">
+                <div class="reel-stage" aria-hidden="true">
+                    <div class="stage-sticky">
+                        <div class="stage-shell">
+                            <div class="stage-glow"></div>
+                            <div class="stage-frame" id="stage-frame"></div>
+                        </div>
+                        <div class="stage-info">
+                            <div class="stage-top">
+                                <span class="stage-index" id="stage-index">01</span>
+                                <span class="stage-cat" id="stage-cat">Web</span>
+                            </div>
+                            <h3 class="stage-title" id="stage-title"></h3>
+                            <p class="stage-sub" id="stage-sub"></p>
+                            <p class="stage-desc" id="stage-desc"></p>
+                            <div class="tags stage-tags" id="stage-tags"></div>
+                            <div class="stage-actions">
+                                <a class="btn btn-primary" id="stage-case" href="#work">Full case study <svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+                                <a class="btn btn-ghost" id="stage-live" href="#" target="_blank" rel="noopener">Live demo <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right-from-square"/></svg></a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="profile-actions">
-                    <a href="https://drive.google.com/file/d/191AZjnPgAwqh2RO1QoX8CdTheroGEIYy/view?usp=sharing" target="_blank" class="btn primary-btn"><i class="fa-solid fa-file-pdf"></i> View Resume</a>
-                    <div class="social-links">
-                        <a href="https://linkedin.com/in/subhash-s-63369a257/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/Subhash2005" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
-                        <a href="https://leetcode.com/u/subhash14/" target="_blank" title="LeetCode"><i class="fa-solid fa-code"></i></a>
-                        <a href="https://www.instagram.com/subhash.s_official/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <div class="reel-shell">
+                    <ol class="reel-list" id="reel-list">
+                        <li class="reel-item is-active" data-cat="web">
+                        <a class="reel-row" href="aura_attend_mvp.html" aria-label="Aura Attend — open case study">
+                            <span class="reel-num">01</span>
+                            <span class="reel-text">
+                                <span class="reel-name">Aura Attend</span>
+                                <span class="reel-sub">Smart attendance &amp; campus management</span>
+                            </span>
+                            <span class="reel-cat">Web</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "Aura Attend", "sub": "Smart attendance & campus management", "cat": "Web", "index": "01", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1779779936/20260525-1301-05.3538754_cdp3ee.mp4", "url": "https://aura-attend.vercel.app/", "doc": "aura_attend_mvp.html", "cta": "Live demo", "desc": "Automates attendance, leave and OD approvals, fee payments and real-time monitoring in one cloud dashboard.", "overview": "A full-stack attendance and management platform built around secure authentication, cloud media storage and real-time data for institutions and organisations.", "features": ["Attendance tracking with automated updates", "Leave & OD approval workflow", "Permission and fee payment integration", "Admin analytics dashboard", "Cloudinary media storage"], "stack": "React.js · Node.js · Express · Python · OpenCV · MongoDB · Cloudinary · JWT · Tailwind CSS", "role": "Full-stack build — architecture, API, dashboard UI and deployment", "frame": "browser", "vr": 1.5, "tags": ["React", "Node.js", "OpenCV", "MongoDB"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="web">
+                        <a class="reel-row" href="lifelink_mvp.html" aria-label="LifeLink+ — open case study">
+                            <span class="reel-num">02</span>
+                            <span class="reel-text">
+                                <span class="reel-name">LifeLink+</span>
+                                <span class="reel-sub">Medical crowdfunding with verification</span>
+                            </span>
+                            <span class="reel-cat">Web</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "LifeLink+", "sub": "Medical crowdfunding with verification", "cat": "Web", "index": "02", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077760/lifeline_vid_fwk3kq.mp4", "url": "https://lifeline-fontend.vercel.app", "doc": "lifelink_mvp.html", "cta": "Live demo", "desc": "Medical fundraising, document verification and emergency request routing on a trust-first, transparent platform.", "overview": "Built for donor trust: strict document verification, transparent fund usage and real-time campaign tracking on a scalable architecture.", "features": ["Campaign creation and fundraising", "Document verification pipeline", "Emergency request routing", "Secure payment handling", "Live campaign tracking"], "stack": "React.js · Node.js · Express · MongoDB · Vite · JWT", "role": "Full-stack build — verification flow, payments and campaign engine", "frame": "browser", "vr": 1.5, "tags": ["React", "Express", "MongoDB", "JWT"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="web">
+                        <a class="reel-row" href="fancybazaar_mvp.html" aria-label="FancyBazaar — open case study">
+                            <span class="reel-num">03</span>
+                            <span class="reel-text">
+                                <span class="reel-name">FancyBazaar</span>
+                                <span class="reel-sub">Retail, wholesale &amp; trading marketplace</span>
+                            </span>
+                            <span class="reel-cat">Web</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "FancyBazaar", "sub": "Retail, wholesale & trading marketplace", "cat": "Web", "index": "03", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077593/fancy_bazar_vt3rea.mp4", "url": "https://fancy-bazar-three.vercel.app", "doc": "fancybazaar_mvp.html", "cta": "Live demo", "desc": "One marketplace where consumers, merchants and bulk traders operate under a single role-based ecosystem.", "overview": "A unified commerce ecosystem where each buyer and seller type gets a dedicated experience on top of shared, scalable infrastructure.", "features": ["Retail shopping experience", "Wholesale inventory management", "Bulk trading workflows", "Role-based dashboards", "Unified product catalogue"], "stack": "React.js · Vite · Node.js · Express · MongoDB Atlas · JWT", "role": "Full-stack build — role architecture, catalogue and dashboards", "frame": "browser", "vr": 1.75, "tags": ["React", "Vite", "Node.js", "Atlas"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="web">
+                        <a class="reel-row" href="eventsphere_ai_mvp.html" aria-label="EventSphere AI — open case study">
+                            <span class="reel-num">04</span>
+                            <span class="reel-text">
+                                <span class="reel-name">EventSphere AI</span>
+                                <span class="reel-sub">Event marketplace &amp; vendor CRM</span>
+                            </span>
+                            <span class="reel-cat">Web</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "EventSphere AI", "sub": "Event marketplace & vendor CRM", "cat": "Web", "index": "04", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077574/event_mkku4c.mp4", "url": "https://eventsphere-ai.vercel.app", "doc": "eventsphere_ai_mvp.html", "cta": "Live demo", "desc": "An AI-driven bridge between event vendors and customers, with budgeting, lead generation and a full vendor CRM.", "overview": "Centralises a fragmented industry: vendors manage leads and packages while customers get AI-assisted budgets and matched suppliers.", "features": ["AI-driven budget planning", "Lead-generation paywall system", "Comprehensive vendor CRM", "Custom package builder", "Matching between vendors and events"], "stack": "MongoDB · Express · React · Node.js · Tailwind CSS · Framer Motion · Hugging Face LLM", "role": "Full-stack build — CRM, matching logic and AI budgeting", "frame": "browser", "vr": 1.75, "tags": ["MERN", "Tailwind", "Framer Motion", "LLM"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="web">
+                        <a class="reel-row" href="equibridge_mvp.html" aria-label="EquiBridge — open case study">
+                            <span class="reel-num">05</span>
+                            <span class="reel-text">
+                                <span class="reel-name">EquiBridge</span>
+                                <span class="reel-sub">Accessible opportunity ecosystem</span>
+                            </span>
+                            <span class="reel-cat">Web</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "EquiBridge", "sub": "Accessible opportunity ecosystem", "cat": "Web", "index": "05", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077593/equibridge_rbyrdq.mp4", "url": "https://equi-weld.vercel.app", "doc": "equibridge_mvp.html", "cta": "Live demo", "desc": "Connects students, daily-wage workers and people with disabilities to work — with voice navigation and multilingual support.", "overview": "Accessibility-first design: voice-guided navigation, universal language support and tailored tools for each community the platform serves.", "features": ["Voice-guided navigation", "Smart assistance chatbot", "Dream pipeline for students", "Nearby work matching", "Accessible job board"], "stack": "FastAPI · Python · React.js · Vite · MongoDB Atlas", "role": "Full-stack build — accessibility layer, matching API and UI", "frame": "browser", "vr": 1.75, "tags": ["FastAPI", "Python", "React", "Atlas"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="app">
+                        <a class="reel-row" href="queueless_mvp.html" aria-label="QueueLess — open case study">
+                            <span class="reel-num">06</span>
+                            <span class="reel-text">
+                                <span class="reel-name">QueueLess</span>
+                                <span class="reel-sub">Smart queue &amp; token management</span>
+                            </span>
+                            <span class="reel-cat">Mobile</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "QueueLess", "sub": "Smart queue & token management", "cat": "Mobile", "index": "06", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1779803284/Untitled_design_ftoi0s.mp4", "url": "https://shorturl.at/7txE8", "doc": "queueless_mvp.html", "cta": "View build", "desc": "Cuts waiting time with online token booking, live queue tracking and crowd monitoring for high-footfall services.", "overview": "A mobile-first queue platform with cloud integration and real-time monitoring for counters, clinics and service centres.", "features": ["Online token generation", "Real-time queue tracking", "Crowd monitoring", "Queue alerts and notifications", "Admin dashboard"], "stack": "Flutter · Dart · Python · FastAPI · Firebase · MongoDB · Android Studio", "role": "App and backend — Flutter client, FastAPI services, realtime sync", "frame": "phone", "vr": 0.68, "tags": ["Flutter", "FastAPI", "Firebase", "MongoDB"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="app">
+                        <a class="reel-row" href="medhelp_mvp.html" aria-label="MedHelp — open case study">
+                            <span class="reel-num">07</span>
+                            <span class="reel-text">
+                                <span class="reel-name">MedHelp</span>
+                                <span class="reel-sub">Vision-AI medical assistant</span>
+                            </span>
+                            <span class="reel-cat">Mobile</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "MedHelp", "sub": "Vision-AI medical assistant", "cat": "Mobile", "index": "07", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077751/med_pig8pw.mp4", "url": "https://lnkd.in/gfDZzN9G", "doc": "medhelp_mvp.html", "cta": "View build", "desc": "A pocket pharmacist that reads messy handwritten prescriptions, identifies pills and flags drug interactions.", "overview": "Uses Gemini 2.5 Flash vision to make prescription information accessible, safer and cheaper to verify — no OCR middle layer.", "features": ["Vision prescription scanner", "Visual pill identifier", "Native language translation", "Multi-drug interaction checker", "Symptom triage engine"], "stack": "React Native · Expo · JavaScript · React Navigation · Google Generative AI SDK", "role": "Mobile build — vision pipeline, triage logic and app UI", "frame": "phone", "vr": 0.52, "tags": ["React Native", "Expo", "Gemini Vision"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="app">
+                        <a class="reel-row" href="happy_cook_mvp.html" aria-label="Happy Cook — open case study">
+                            <span class="reel-num">08</span>
+                            <span class="reel-text">
+                                <span class="reel-name">Happy Cook</span>
+                                <span class="reel-sub">Restaurant operations platform</span>
+                            </span>
+                            <span class="reel-cat">Mobile</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "Happy Cook", "sub": "Restaurant operations platform", "cat": "Mobile", "index": "08", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077571/happycook_vatktj.mp4", "url": "https://expo.dev/accounts/subhash14/projects/frontend/builds/8111d959-6132-4b56-a724-04ec49791411", "doc": "happy_cook_mvp.html", "cta": "View build", "desc": "Replaces expensive POS hardware with mobile ordering, live GPS tracking and a real-time restaurant dashboard.", "overview": "A full-cycle operations engine for local food businesses — ordering, delivery tracking, payments and receipts in one loop.", "features": ["Mobile-first ordering", "Live GPS delivery tracking", "Restaurant dashboard", "Razorpay payment integration", "QR code receipts"], "stack": "React Native · Expo EAS · Node.js · Render", "role": "End-to-end product — app, backend and store-ready builds", "frame": "phone", "vr": 0.62, "tags": ["React Native", "Expo EAS", "Node.js", "Razorpay"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="app">
+                        <a class="reel-row" href="manitham_mvp.html" aria-label="Manitham — open case study">
+                            <span class="reel-num">09</span>
+                            <span class="reel-text">
+                                <span class="reel-name">Manitham</span>
+                                <span class="reel-sub">Civic issue resolution marketplace</span>
+                            </span>
+                            <span class="reel-cat">Mobile</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "Manitham", "sub": "Civic issue resolution marketplace", "cat": "Mobile", "index": "09", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077571/manitham_f88rpy.mp4", "url": "https://l1nk.dev/poc1oe8", "doc": "manitham_mvp.html", "cta": "View build", "desc": "Turns civic complaints into paid work — departments auction verified issues to a local citizen workforce.", "overview": "Community action instead of dead complaint tickets: report an issue, get it verified, auction the work, track budget and completion.", "features": ["Instant issue reporting", "Citizen workforce bidding", "Officer review dashboard", "Budget and work tracking", "Realtime status updates"], "stack": "Flutter · Firebase · Firestore · Realtime Database", "role": "App build — reporting flow, bidding system and officer tools", "frame": "phone", "vr": 0.68, "tags": ["Flutter", "Firebase", "Firestore"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="app">
+                        <a class="reel-row" href="ca_companion_mvp.html" aria-label="CA Companion — open case study">
+                            <span class="reel-num">10</span>
+                            <span class="reel-text">
+                                <span class="reel-name">CA Companion</span>
+                                <span class="reel-sub">AI assistant for chartered accountants</span>
+                            </span>
+                            <span class="reel-cat">Mobile</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "CA Companion", "sub": "AI assistant for chartered accountants", "cat": "Mobile", "index": "10", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781079431/CA_qhcacf.mp4", "url": "https://expo.dev/accounts/subhash14/projects/ca-companion/builds/9065b39c-874e-4b2b-8c3f-684a1f2adcf9", "doc": "ca_companion_mvp.html", "cta": "View build", "desc": "Scans financial documents and extracts health scores, margins and key metrics — no manual data entry.", "overview": "An intelligent analysis engine that replaces manual entry while keeping sensitive documents on an enterprise-grade secure path.", "features": ["Document scanner", "Intelligent metric extraction", "Financial health scores and margins", "Serverless processing", "Enterprise-grade security"], "stack": "React Native · Expo EAS · Serverless backend · Vercel · Gemini 2.5 Flash", "role": "Mobile + serverless build — extraction engine and app", "frame": "phone", "vr": 0.61, "tags": ["React Native", "Serverless", "Gemini"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="app">
+                        <a class="reel-row" href="make_me_fit_mvp.html" aria-label="Make Me Fit — open case study">
+                            <span class="reel-num">11</span>
+                            <span class="reel-text">
+                                <span class="reel-name">Make Me Fit</span>
+                                <span class="reel-sub">Health &amp; nutrition ecosystem</span>
+                            </span>
+                            <span class="reel-cat">Mobile</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "Make Me Fit", "sub": "Health & nutrition ecosystem", "cat": "Mobile", "index": "11", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077589/make_me_fit_tkrtah.mp4", "url": "https://shorturl.at/hn47a", "doc": "make_me_fit_mvp.html", "cta": "View build", "desc": "Barcode-fast food logging, intelligent meal swaps, automated grocery lists and always-on coaching.", "overview": "Built to remove friction from wellness — logging takes seconds and the app suggests the next best action instead of only counting calories.", "features": ["Barcode food scanner", "Intelligent meal swap", "Automated grocery lists", "Always-on coaching", "Progress tracking"], "stack": "Flutter · Node.js · MongoDB", "role": "Cross-platform app and API", "frame": "phone", "vr": 0.63, "tags": ["Flutter", "Node.js", "MongoDB"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="ai">
+                        <a class="reel-row" href="upi_care_mvp.html" aria-label="UPI Care — open case study">
+                            <span class="reel-num">12</span>
+                            <span class="reel-text">
+                                <span class="reel-name">UPI Care</span>
+                                <span class="reel-sub">AI customer support for payments</span>
+                            </span>
+                            <span class="reel-cat">AI Agent</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "UPI Care", "sub": "AI customer support for payments", "cat": "AI Agent", "index": "12", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1779803405/Screen_Recording_2026-05-17_021355_lu5t0l.mp4", "url": "https://upicare.vercel.app/", "doc": "upi_care_mvp.html", "cta": "Live demo", "desc": "Resolves failed payments, pending transactions and refund delays instantly through an automated support agent.", "overview": "An AI-driven support layer for digital payments — automated triage, guided resolution and ticket management for UPI issues.", "features": ["AI-based support agent", "Pending transaction assistance", "Payment failure resolution", "Complaint and ticket management", "Escalation to human agents"], "stack": "React.js · Python · FastAPI · AgentSpan · MongoDB · JWT · Tailwind CSS · NLP", "role": "Agent design and full-stack build", "frame": "phone", "vr": 0.67, "tags": ["React", "FastAPI", "NLP", "MongoDB"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="ai">
+                        <a class="reel-row" href="cyber_soc_mvp.html" aria-label="Cyber SOC — open case study">
+                            <span class="reel-num">13</span>
+                            <span class="reel-text">
+                                <span class="reel-name">Cyber SOC</span>
+                                <span class="reel-sub">AI-driven threat detection centre</span>
+                            </span>
+                            <span class="reel-cat">AI Agent</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "Cyber SOC", "sub": "AI-driven threat detection centre", "cat": "AI Agent", "index": "13", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077899/cyber_qvprrs.mp4", "url": "https://cyber-soc-ivory.vercel.app", "doc": "cyber_soc_mvp.html", "cta": "Live demo", "desc": "Delegates triage to an AI analyst and surfaces only verified critical threats — with reasoning and mitigation attached.", "overview": "Real-time telemetry meets contextual AI reasoning, semantic search and OSINT enrichment over a graph-based threat model.", "features": ["Real-time telemetry ingestion", "AI contextual reasoning and triage", "Semantic search over events", "Threat intelligence (OSINT) enrichment", "Graph-based attack representation"], "stack": "Python · FastAPI · Uvicorn · WebSockets · Gemini 2.5 Flash · ChromaDB · NetworkX", "role": "Architecture, agent reasoning pipeline and dashboard", "frame": "browser", "vr": 1.75, "tags": ["FastAPI", "WebSockets", "ChromaDB", "Gemini"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="ai">
+                        <a class="reel-row" href="thinklearn_ai_mvp.html" aria-label="ThinkLearn AI — open case study">
+                            <span class="reel-num">14</span>
+                            <span class="reel-text">
+                                <span class="reel-name">ThinkLearn AI</span>
+                                <span class="reel-sub">Socratic concept-learning tutor</span>
+                            </span>
+                            <span class="reel-cat">AI Agent</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "ThinkLearn AI", "sub": "Socratic concept-learning tutor", "cat": "AI Agent", "index": "14", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077581/Thinklearn_cmymfz.mp4", "url": "https://think-ai-tan.vercel.app", "doc": "thinklearn_ai_mvp.html", "cta": "Live demo", "desc": "A tutor that makes learners reason their way to answers instead of handing them over — with adaptive difficulty and hints.", "overview": "Not a chatbot — a personalised learning engine that applies the Socratic method and tracks concept mastery over time.", "features": ["Socratic questioning approach", "Adaptive difficulty", "Progressive hint system", "Daily revision AI", "Concept mastery tracking"], "stack": "React.js · Vite · Node.js · Express · MongoDB · Google GenAI (Gemini) · Groq", "role": "Full-stack build — tutoring engine and learning UI", "frame": "browser", "vr": 1.55, "tags": ["React", "Express", "Gemini", "Groq"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="ai">
+                        <a class="reel-row" href="news_chronicle_ai_mvp.html" aria-label="News Chronicle AI — open case study">
+                            <span class="reel-num">15</span>
+                            <span class="reel-text">
+                                <span class="reel-name">News Chronicle AI</span>
+                                <span class="reel-sub">Real-time news intelligence</span>
+                            </span>
+                            <span class="reel-cat">AI Agent</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "News Chronicle AI", "sub": "Real-time news intelligence", "cat": "AI Agent", "index": "15", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077586/news_rawq0c.mp4", "url": "https://news-chronicle-ai.vercel.app", "doc": "news_chronicle_ai_mvp.html", "cta": "Live demo", "desc": "A personal editor-in-chief: aggregates global feeds and live TV, then answers questions with sourced briefings.", "overview": "Bridges raw global news and actionable insight with retrieval-augmented conversation and a premium editorial interface.", "features": ["Tailored AI personas", "Conversational search over the news (RAG)", "Live TV capture", "Custom report generation", "Global RSS aggregation"], "stack": "Python · FastAPI · React.js · Vite · RAG pipeline", "role": "Full-stack build — aggregation, RAG pipeline and editorial UI", "frame": "browser", "vr": 1.75, "tags": ["FastAPI", "React", "RAG", "Python"]}</script>
+                        </li>
+                        <li class="reel-item" data-cat="ai">
+                        <a class="reel-row" href="https://shorturl.at/kMSoC" target="_blank" rel="noopener" aria-label="TravelMind AI — open case study">
+                            <span class="reel-num">16</span>
+                            <span class="reel-text">
+                                <span class="reel-name">TravelMind AI</span>
+                                <span class="reel-sub">Autonomous travel agent</span>
+                            </span>
+                            <span class="reel-cat">AI Agent</span>
+                            <span class="reel-go"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></span>
+                        </a>
+                        <script type="application/json" class="card-data">{"title": "TravelMind AI", "sub": "Autonomous travel agent", "cat": "AI Agent", "index": "16", "video": "https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077586/travelmind_hwoe72.mp4", "url": "https://travel-mind-ai-seven.vercel.app", "doc": "https://shorturl.at/kMSoC", "cta": "Live demo", "desc": "An agentic workflow that researches flights, hotels, visas and itineraries in real time and assembles the whole trip.", "overview": "Multi-step tool execution drives the planning loop — the agent decides what to look up next and organises results conversationally.", "features": ["Conversational trip planning", "Smart tool execution (flights, hotels, visa)", "Local guides and itineraries", "Real-time research", "Streaming responses"], "stack": "Next.js 16 App Router · Vercel AI SDK · Llama 3.1 8B · Groq", "role": "Agent architecture and product build", "frame": "phone", "vr": 0.68, "tags": ["Next.js 16", "AI SDK", "Llama 3.1", "Groq"]}</script>
+                        </li>
+                    </ol>
+                    <p class="reel-scrollhint"><svg class="icon" aria-hidden="true"><use href="#i-arrow-down"/></svg> Scroll the index</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+        <div class="container">
+            <header class="section-head" data-reveal>
+                <p class="eyebrow"><span></span>How we'll work</p>
+                <h2 class="section-title">A process built for clarity</h2>
+                <p class="section-lead">No black boxes and no surprise invoices. You see progress every week and know exactly
+                    what's shipping next.</p>
+            </header>
+
+            <ol class="process-list">
+                <li class="process-step" data-reveal>
+                    <span class="step-num">01</span>
+                    <div>
+                        <h3>Discovery call</h3>
+                        <p>A free 30-minute conversation about the problem, users and constraints. You leave with a scope,
+                            a timeline and a fixed quote — no obligation.</p>
+                    </div>
+                </li>
+                <li class="process-step" data-reveal>
+                    <span class="step-num">02</span>
+                    <div>
+                        <h3>Architecture &amp; design</h3>
+                        <p>Data model, API surface and screen flows agreed up front. You approve the plan before a
+                            single feature gets built.</p>
+                    </div>
+                </li>
+                <li class="process-step" data-reveal>
+                    <span class="step-num">03</span>
+                    <div>
+                        <h3>Build in weekly sprints</h3>
+                        <p>Working software every week on a live preview URL. Feedback goes straight into the next
+                            sprint instead of waiting for a big reveal.</p>
+                    </div>
+                </li>
+                <li class="process-step" data-reveal>
+                    <span class="step-num">04</span>
+                    <div>
+                        <h3>Ship &amp; hand over</h3>
+                        <p>Deployment, store submission where relevant, full source ownership, an MVP document and
+                            30 days of post-launch support.</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-about" id="about">
+        <div class="container">
+            <header class="section-head" data-reveal>
+                <p class="eyebrow"><span></span>About me</p>
+                <h2 class="section-title">Engineer first, obsessive about shipping</h2>
+                <p class="section-lead">I'm a final-year engineering student who has spent the last three years building real
+                    products — through internships, hackathons and client work — rather than collecting certificates.</p>
+            </header>
+
+            <div class="about-grid">
+                <div class="about-col" data-reveal>
+                    <h3 class="col-title"><svg class="icon" aria-hidden="true"><use href="#i-briefcase"/></svg> Experience</h3>
+                    <ol class="timeline">
+                        <li>
+                            <h4>Software Testing Intern</h4>
+                            <p class="org">Precision Biometric India Pvt Ltd</p>
+                            <p>Validated biometric software flows and reported defects against release criteria.</p>
+                            </li>
+                        <li>
+                            <h4>Web Developer Intern</h4>
+                            <p class="org">Nullclass EdTech Pvt Ltd</p>
+                            <p>Built and shipped features across the front-end and API layers of a live learning platform.</p>
+                            </li>
+                        <li>
+                            <h4>Data Science Intern</h4>
+                            <p class="org">Evastro Ventures Pvt Ltd</p>
+                            <p>Worked on data pipelines and analysis to support product and business decisions.</p>
+                            </li>
+                    </ol>
+                </div>
+
+                <div class="about-col" data-reveal>
+                    <h3 class="col-title"><svg class="icon" aria-hidden="true"><use href="#i-award"/></svg> Recognition</h3>
+                    <ul class="award-list">
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-trophy"/></svg><div><strong>Winner — SDG Hackathon Solvethon 3.0 &amp; EXTENZIA 4.0</strong><span>Two national-level hackathon wins</span></div></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-file-signature"/></svg><div><strong>Patent published</strong><span>Intellectual Property India</span></div></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-book-open"/></svg><div><strong>Research paper published</strong><span>DJS Spark</span></div></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-users"/></svg><div><strong>Led INFYRA 24, Verbatron 1.0 &amp; IEEE Workshop</strong><span>Event leadership &amp; technical hosting</span></div></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-flag"/></svg><div><strong>SIH, SAP Hackfest &amp; Talkathon participant</strong><span>National competitions</span></div></li>
+                        <li><svg class="icon" aria-hidden="true"><use href="#i-hand-holding-heart"/></svg><div><strong>UBA Tech Outreach volunteer</strong><span>Community technology programmes</span></div></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="skills-block" data-reveal>
+                <h3 class="col-title"><svg class="icon" aria-hidden="true"><use href="#i-layer-group"/></svg> Toolkit</h3>
+                <div class="skills-groups">
+                    <div>
+                        <h4>Front-end</h4>
+                        <div class="tags"><span>React.js</span><span>Next.js</span><span>Vite</span><span>Tailwind CSS</span><span>Framer Motion</span><span>JavaScript</span></div>
+                    </div>
+                    <div>
+                        <h4>Back-end</h4>
+                        <div class="tags"><span>Node.js</span><span>Express</span><span>Python</span><span>FastAPI</span><span>REST APIs</span><span>JWT Auth</span></div>
+                    </div>
+                    <div>
+                        <h4>Mobile</h4>
+                        <div class="tags"><span>Flutter</span><span>Dart</span><span>React Native</span><span>Expo EAS</span><span>Android Studio</span></div>
+                    </div>
+                    <div>
+                        <h4>AI &amp; data</h4>
+                        <div class="tags"><span>Gemini</span><span>Groq</span><span>Llama 3.1</span><span>Vercel AI SDK</span><span>RAG</span><span>ChromaDB</span><span>OpenCV</span></div>
+                    </div>
+                    <div>
+                        <h4>Data &amp; cloud</h4>
+                        <div class="tags"><span>MongoDB Atlas</span><span>Firebase</span><span>Firestore</span><span>Cloudinary</span><span>Vercel</span><span>Render</span></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Main Content -->
-    <main>
-        <section id="projects" class="projects-section">
-            <h2 class="section-title">My Projects</h2>
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <div class="contact-shell glass-panel" data-reveal>
+                <div class="contact-copy">
+                    <p class="eyebrow"><span></span>Let's talk</p>
+                    <h2 class="section-title">Have a project in mind?</h2>
+                    <p class="section-lead">Tell me what you're building. I'll reply within 24 hours with honest feedback,
+                        a realistic timeline and a fixed quote — even if the answer is that you don't need me.</p>
 
-            <!-- Web Development -->
-            <div class="project-category">
-                <h3><i class="fa-solid fa-globe"></i> Web Development</h3>
-                <div class="projects-grid">
-                    <!-- Aura Attend -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1779779936/20260525-1301-05.3538754_cdp3ee.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://aura-attend.vercel.app/', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>Aura Attend - Smart Management</h4>
-                            <p>Automate attendance tracking, leave approvals, OD submissions, fee management, and real-time monitoring through a centralized cloud-based system.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Aura Attend is a full-stack attendance and management platform designed to streamline academic and administrative processes using secure authentication, cloud storage, and real-time data management.</p>
-                                <p><strong>Key Features:</strong> Attendance Tracking, Leave & OD Management, Permission Approval System, Leave Fee Payment Integration, Admin Analytics Dashboard.</p>
-                                <p><strong>Tech Stack:</strong> React.js • Node.js • Python • OpenCV • MongoDB • Cloudinary • JWT • Tailwind CSS • Express.js</p>
-                                <a href="aura_attend_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
+                    <ul class="contact-methods">
+                        <li><a href="mailto:subhash1422005s@gmail.com"><svg class="icon" aria-hidden="true"><use href="#i-envelope"/></svg><span><strong>Email</strong>subhash1422005s@gmail.com</span></a></li>
+                        <li><a href="tel:+917695903778"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><span><strong>Phone</strong>+91 76959 03778</span></a></li>
+                        <li><a href="https://linkedin.com/in/subhash-s-63369a257/" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-linkedin-in"/></svg><span><strong>LinkedIn</strong>Connect professionally</span></a></li>
+                        <li><a href="https://github.com/Subhash2005" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg><span><strong>GitHub</strong>Browse the code</span></a></li>
+                    </ul>
 
-                    <!-- LifeLink+ -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077760/lifeline_vid_fwk3kq.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://lifeline-fontend.vercel.app', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>LifeLink+ - Medical Crowdfunding</h4>
-                            <p>Handling medical fundraising, document verification, and critical emergency requests seamlessly through a secure platform.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>LifeLink+ focuses on building a secure, transparent, and scalable support system that enhances donor trust through strict verification processes and real-time campaign tracking.</p>
-                                <p><strong>Key Features:</strong> Medical Fundraising, Document Verification, Emergency Routing, Secure Payments, Campaign Tracking.</p>
-                                <p><strong>Tech Stack:</strong> React.js • Node.js • Express.js • MongoDB • Vite • JWT</p>
-                                <a href="lifelink_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- FancyBazaar -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077593/fancy_bazar_vt3rea.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://fancy-bazar-three.vercel.app', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>FancyBazaar - Digital Marketplace</h4>
-                            <p>A complete, full-stack digital marketplace designed to revolutionize how consumers, merchants, and traders connect.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>A unified ecosystem where every type of buyer and seller can thrive under one roof with a highly scalable, role-based architecture.</p>
-                                <p><strong>Key Features:</strong> Retail Shopping, Wholesale Inventory Management, Bulk Trading, Role-based Dashboard, Unified Ecosystem.</p>
-                                <p><strong>Tech Stack:</strong> React.js • Vite • Node.js • Express.js • MongoDB Atlas • JWT</p>
-                                <a href="fancybazaar_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- EventSphere AI -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077574/event_mkku4c.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://eventsphere-ai.vercel.app', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>EventSphere AI - Event Management</h4>
-                            <p>An intelligent marketplace and CRM platform built to streamline the highly fragmented event management industry.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>EventSphere AI acts as a centralized, AI-driven bridge between service providers and customers.</p>
-                                <p><strong>Key Features:</strong> AI-Driven Budgeting, Lead-Gen Paywall System, Comprehensive Vendor CRM, Custom Packages.</p>
-                                <p><strong>Tech Stack:</strong> MongoDB • Express • React • Node.js • Tailwind CSS • Framer Motion • Hugging Face LLM</p>
-                                <a href="eventsphere_ai_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- EquiBridge -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077593/equibridge_rbyrdq.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://equi-weld.vercel.app', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>EquiBridge - Opportunity Ecosystem</h4>
-                            <p>A highly accessible ecosystem connecting students, daily wage workers, and individuals with disabilities to opportunities.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Empowers specific communities through tailored tools, voice-guided navigation, and universal language support.</p>
-                                <p><strong>Key Features:</strong> Voice-Guided Navigation, Smart Chatbot, Dream Pipeline, Nearby Work Matching, Accessible Job Board.</p>
-                                <p><strong>Tech Stack:</strong> FastAPI • Python • React.js • Vite • MongoDB Atlas</p>
-                                <a href="equibridge_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
+                    <div class="assurances">
+                        <span><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Free consult</span>
+                        <span><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> Fixed quotes</span>
+                        <span><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg> You own the code</span>
                     </div>
                 </div>
-            </div>
 
-            <!-- App Development -->
-            <div class="project-category">
-                <h3><i class="fa-solid fa-mobile-screen"></i> App Development</h3>
-                <div class="projects-grid">
-                    <!-- QueueLess -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1779803284/Untitled_design_ftoi0s.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://shorturl.at/7txE8', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>QueueLess - Smart Queue Management</h4>
-                            <p>Reduce waiting time and improve service efficiency through online token booking, real-time queue tracking, and intelligent crowd management.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>QueueLess is a mobile-based queue management platform designed to simplify crowd handling and token management using cloud integration and real-time monitoring systems.</p>
-                                <p><strong>Key Features:</strong> Online Token Generation, Queue Tracking, Crowd Monitoring, Queue Alerts, Admin Dashboard.</p>
-                                <p><strong>Tech Stack:</strong> Flutter • Dart • Python • FastAPI • Firebase • MongoDB • Android Studio</p>
-                                <a href="queueless_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
+                <form class="contact-form" id="main-form" novalidate>
+                    <div class="field">
+                        <label for="mf-name">Your name</label>
+                        <input type="text" id="mf-name" name="name" placeholder="Jane Doe" required>
                     </div>
-
-                    <!-- MedHelp -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077751/med_pig8pw.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://lnkd.in/gfDZzN9G', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>MedHelp - Vision AI Medical Assistant</h4>
-                            <p>A mobile app that acts as a pocket pharmacist, deciphering messy handwritten prescriptions and identifying pills.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Using Google's cutting-edge Gemini 2.5 Flash Vision AI to make healthcare more accessible, safe, and affordable.</p>
-                                <p><strong>Key Features:</strong> Vision Prescription Scanner, Visual Pill Identifier, Native Translation, Multi-Drug Interaction Checker.</p>
-                                <p><strong>Tech Stack:</strong> React Native • Expo • JavaScript • React Navigation • Google Generative AI SDK</p>
-                                <a href="medhelp_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
+                    <div class="field">
+                        <label for="mf-email">Email</label>
+                        <input type="email" id="mf-email" name="email" placeholder="jane@company.com" required>
                     </div>
-
-                    <!-- Happy Cook -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077571/happycook_vatktj.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://expo.dev/accounts/subhash14/projects/frontend/builds/8111d959-6132-4b56-a724-04ec49791411', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>Happy Cook - Digital Operations Platform</h4>
-                            <p>A digital platform bridging the gap between hungry guests and local food businesses with seamless ordering.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Happy Cook is a full-cycle operations engine replacing expensive POS systems with real-time dashboards and frictionless payments.</p>
-                                <p><strong>Key Features:</strong> Mobile-first Ordering, Live GPS Tracking, Restaurant Dashboard, Razorpay Integration, QR Code Receipts.</p>
-                                <p><strong>Tech Stack:</strong> React Native • Expo EAS • Node.js • Render</p>
-                                <a href="happy_cook_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
+                    <div class="field">
+                        <label for="mf-type">What do you need?</label>
+                        <select id="mf-type" name="type">
+                            <option>Web platform</option>
+                            <option>Mobile app</option>
+                            <option>AI agent / automation</option>
+                            <option>Full-time role</option>
+                            <option>Something else</option>
+                        </select>
                     </div>
-
-                    <!-- Manitham -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077571/manitham_f88rpy.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://l1nk.dev/poc1oe8', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>Manitham - Civic Issue Resolution</h4>
-                            <p>A platform redefining how public infrastructure issues are reported and actually getting locals paid to fix them.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Turns complaints into community action by allowing departments to auction verified issues to local citizen workforce.</p>
-                                <p><strong>Key Features:</strong> Instant Reporting, Citizen Workforce Bidding, Officer Dashboard, Budget & Work Tracking.</p>
-                                <p><strong>Tech Stack:</strong> Flutter • Firebase • Firestore • Real-time DB</p>
-                                <a href="manitham_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
+                    <div class="field">
+                        <label for="mf-message">Project details</label>
+                        <textarea id="mf-message" name="message" rows="5" placeholder="What are you building, who is it for, and when do you need it?" required></textarea>
                     </div>
-
-                    <!-- CA Companion -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781079431/CA_qhcacf.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://expo.dev/accounts/subhash14/projects/ca-companion/builds/9065b39c-874e-4b2b-8c3f-684a1f2adcf9', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>CA Companion - Financial Workflow AI</h4>
-                            <p>An AI-powered digital assistant simplifying complex document analysis and data extraction for Chartered Accountants.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Replaces manual data entry by extracting critical financial metrics securely with an intelligent analysis engine.</p>
-                                <p><strong>Key Features:</strong> Document Scanner, Intelligent Extraction (Health Scores, Margins), Enterprise-Grade Security.</p>
-                                <p><strong>Tech Stack:</strong> React Native • Expo EAS • Serverless Backend • Vercel • Gemini 2.5 Flash AI</p>
-                                <a href="ca_companion_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Make Me Fit -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077589/make_me_fit_tkrtah.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://shorturl.at/hn47a', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>Make Me Fit - Health Ecosystem</h4>
-                            <p>A holistic health ecosystem designed to remove the friction from fitness and empower everyday wellness.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Not just another calorie counter, but a complete digital companion with frictionless tracking and personalized nutrition.</p>
-                                <p><strong>Key Features:</strong> Frictionless Tracking (Barcode Scanner), Intelligent Meal Swap, Automated Grocery Lists, Always-On Coaching.</p>
-                                <p><strong>Tech Stack:</strong> Flutter • Node.js • MongoDB • Cross-platform App</p>
-                                <a href="make_me_fit_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Agent Development -->
-            <div class="project-category">
-                <h3><i class="fa-solid fa-robot"></i> Agent Development</h3>
-                <div class="projects-grid">
-                    <!-- UPI Care -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1779803405/Screen_Recording_2026-05-17_021355_lu5t0l.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://upicare.vercel.app/', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>UPI Care - AI Customer Support</h4>
-                            <p>Resolve payment failures, pending transactions, refund delays, and UPI-related issues instantly through intelligent automated support.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>UPI Care is a smart AI-driven support platform designed to simplify customer issue resolution for digital payment systems using automation, FastAPI services, and intelligent response management.</p>
-                                <p><strong>Key Features:</strong> AI-Based Support Agent, Pending Transaction Assistance, Payment Failure Resolution, Complaint and Ticket Management.</p>
-                                <p><strong>Tech Stack:</strong> React.js • Python • FastAPI • AgentSpan • MongoDB • JWT • Tailwind CSS • NLP</p>
-                                <a href="upi_care_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Cyber SOC -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077899/cyber_qvprrs.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://cyber-soc-ivory.vercel.app', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>Cyber SOC - AI Threat Detection</h4>
-                            <p>A modern, AI-driven Security Operations Center (SOC) capable of real-time threat detection with intelligent context enrichment.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>This architecture delegates initial triage and analysis to the AI, surfacing only verified, critical threats with clear reasoning and mitigation steps to human operators.</p>
-                                <p><strong>Key Features:</strong> Real-time Telemetry, AI Contextual Reasoning, Semantic Search, Threat Intelligence (OSINT), Graph-based representation.</p>
-                                <p><strong>Tech Stack:</strong> Python • FastAPI • Uvicorn • WebSockets • Gemini 2.5 Flash • ChromaDB • NetworkX</p>
-                                <a href="https://shorturl.at/3wPEm" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- ThinkLearn AI -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077581/Thinklearn_cmymfz.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://think-ai-tan.vercel.app', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>ThinkLearn AI - Concept Learning Tutor</h4>
-                            <p>An advanced AI Concept Learning Tutor designed to help you THINK, REASON, and DISCOVER answers instead of just memorizing them.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>ThinkLearn AI isn’t just a chatbot; it is a personalized learning engine using the Socratic method to guide you through concepts.</p>
-                                <p><strong>Key Features:</strong> Socratic Learning Approach, Adaptive Difficulty, Progressive Hint System, Daily Revision AI.</p>
-                                <p><strong>Tech Stack:</strong> React.js • Vite • Node.js • Express.js • MongoDB • Google GenAI (Gemini) • Groq</p>
-                                <a href="thinklearn_ai_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- News Chronicle AI -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077586/news_rawq0c.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://news-chronicle-ai.vercel.app', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>News Chronicle AI - Intelligence Platform</h4>
-                            <p>A real-time digital intelligence platform bridging the gap between global news and actionable, personalized insights.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Acts as a personal editor-in-chief simplifying global RSS aggregation to live TV monitoring with a classic, premium editorial design.</p>
-                                <p><strong>Key Features:</strong> Tailored AI Personas, Conversational Search (RAG), Live TV Capture Magic, Custom Reports.</p>
-                                <p><strong>Tech Stack:</strong> Python • FastAPI • React.js • Vite • AI Aggregation • RAG</p>
-                                <a href="news_chronicle_ai_mvp.html" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- TravelMind AI -->
-                    <div class="project-card glass-panel">
-                        <div class="video-container">
-                            <video src="https://res.cloudinary.com/dgfbjfokc/video/upload/v1781077586/travelmind_hwoe72.mp4" autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;" onclick="window.open('https://travel-mind-ai-seven.vercel.app', '_blank')" title="Click to open link"></video>
-                        </div>
-                        <div class="project-info">
-                            <h4>TravelMind AI - Autonomous Travel Agent</h4>
-                            <p>An advanced, fully autonomous AI travel agent bridging the gap between complex trip planning and a seamless vacation.</p>
-                            
-                            <button class="toggle-deep-content">View Deep Content <i class="fa-solid fa-chevron-down"></i></button>
-                            <div class="deep-content hidden">
-                                <p>Powered by an Agentic Workflow that actively researches and organizes your entire journey in real-time, executing multi-step tools.</p>
-                                <p><strong>Key Features:</strong> Conversational Experience, Smart Tool Execution (Flights, Hotels, Visa), Local Guide & Itineraries.</p>
-                                <p><strong>Tech Stack:</strong> Next.js 16 App Router • Vercel AI SDK • Llama 3.1 8B • Groq</p>
-                                <a href="https://shorturl.at/kMSoC" target="_blank" class="mvp-link"><i class="fa-solid fa-file-lines"></i> View MVP Document</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer & Freelance Section -->
-    <footer>
-        <div class="freelance-banner">
-            <h2>Available for Freelance Opportunities</h2>
-            <p>Let's build something amazing together.</p>
-            <div class="contact-methods">
-                <a href="tel:+917695903778"><i class="fa-solid fa-phone"></i> +91 7695903778</a>
-                <a href="mailto:subhash1422005s@gmail.com"><i class="fa-solid fa-envelope"></i> subhash1422005s@gmail.com</a>
-                <a href="https://linkedin.com/in/subhash-s-63369a257/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; <span id="year"></span> Subhash. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <!-- Chatbot UI -->
-    <div id="chatbot-container">
-        <button id="chatbot-toggle" class="chat-btn">
-            <i class="fa-solid fa-message"></i>
-        </button>
-        
-        <div id="chatbot-window" class="chat-window hidden glass-panel">
-            <div class="chat-header">
-                <h3>Send me a message</h3>
-                <button id="chat-close"><i class="fa-solid fa-xmark"></i></button>
-            </div>
-            <div class="chat-body">
-                <form id="contact-form">
-                    <input type="text" id="sender-name" placeholder="Your Name" required>
-                    <input type="email" id="sender-email" placeholder="Your Email" required>
-                    <textarea id="sender-message" rows="4" placeholder="Type your message here..." required></textarea>
-                    <button type="submit" class="btn submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    <button type="submit" class="btn btn-primary btn-lg form-submit">
+                        Send message <svg class="icon" aria-hidden="true"><use href="#i-paper-plane"/></svg>
+                    </button>
+                    <p class="form-status hidden" id="main-status" role="status"></p>
                 </form>
-                <div id="chat-status" class="hidden"></div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+    <div class="container footer-inner">
+        <div class="footer-brand">
+            <a href="#home" class="brand">
+                <span class="brand-mark">S</span>
+                <span class="brand-text">Subhash<em>.dev</em></span>
+            </a>
+            <p>Full-stack, mobile and AI-agent development. Idea to deployed product.</p>
+            <div class="footer-socials">
+                <a href="https://linkedin.com/in/subhash-s-63369a257/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="icon" aria-hidden="true"><use href="#i-linkedin-in"/></svg></a>
+                <a href="https://github.com/Subhash2005" target="_blank" rel="noopener" aria-label="GitHub"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg></a>
+                <a href="https://leetcode.com/u/subhash14/" target="_blank" rel="noopener" aria-label="LeetCode"><svg class="icon" aria-hidden="true"><use href="#i-code"/></svg></a>
+                <a href="https://www.instagram.com/subhash.s_official/" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+            </div>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+            <div>
+                <h4>Explore</h4>
+                <a href="#services">Services</a>
+                <a href="#work">Work</a>
+                <a href="#process">Process</a>
+                <a href="#about">About</a>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <a href="#services">Web platforms</a>
+                <a href="#services">Mobile apps</a>
+                <a href="#services">AI agents</a>
+                <a href="#services">Automation</a>
+            </div>
+            <div>
+                <h4>Get in touch</h4>
+                <a href="mailto:subhash1422005s@gmail.com">Email me</a>
+                <a href="tel:+917695903778">+91 76959 03778</a>
+                <a href="https://drive.google.com/file/d/191AZjnPgAwqh2RO1QoX8CdTheroGEIYy/view?usp=sharing" target="_blank" rel="noopener">Résumé</a>
+            </div>
+        </nav>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Subhash. All rights reserved.</p>
+        <p>Designed &amp; built from scratch.</p>
+    </div>
+</footer>
+
+<!-- ============ CASE STUDY LIGHTBOX ============ -->
+<div class="case-modal" id="case-modal" role="dialog" aria-modal="true" aria-labelledby="case-title" hidden>
+    <div class="case-backdrop" data-close></div>
+    <div class="case-panel" role="document">
+        <button class="case-close" id="case-close" aria-label="Close case study"><svg class="icon" aria-hidden="true"><use href="#i-xmark"/></svg></button>
+
+        <div class="case-stage">
+            <div class="case-frame" id="case-frame"></div>
+        </div>
+
+        <div class="case-info">
+            <div class="case-head">
+                <span class="case-index" id="case-index">01</span>
+                <span class="case-cat" id="case-cat">Web</span>
+            </div>
+            <h3 id="case-title">Project</h3>
+            <p class="case-sub" id="case-sub"></p>
+
+            <div class="case-scroll">
+                <p class="case-overview" id="case-overview"></p>
+
+                <h4 class="case-label">Key features</h4>
+                <ul class="case-features" id="case-features"></ul>
+
+                <h4 class="case-label">My role</h4>
+                <p class="case-role" id="case-role"></p>
+
+                <h4 class="case-label">Tech stack</h4>
+                <p class="case-stack" id="case-stack"></p>
+            </div>
+
+            <div class="case-actions">
+                <a class="btn btn-primary" id="case-live" href="#" target="_blank" rel="noopener">Open live <svg class="icon" aria-hidden="true"><use href="#i-arrow-up-right-from-square"/></svg></a>
+                <a class="btn btn-ghost" id="case-doc" href="#" target="_blank" rel="noopener"><svg class="icon" aria-hidden="true"><use href="#i-file-lines"/></svg> MVP document</a>
+            </div>
+
+            <div class="case-nav">
+                <button type="button" id="case-prev" class="case-arrow" aria-label="Previous project"><svg class="icon" aria-hidden="true"><use href="#i-arrow-left"/></svg></button>
+                <span class="case-counter" id="case-counter">1 / 16</span>
+                <button type="button" id="case-next" class="case-arrow" aria-label="Next project"><svg class="icon" aria-hidden="true"><use href="#i-arrow-right"/></svg></button>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- EmailJS SDK (Required for sending emails directly from browser) -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script src="js/script.js"></script>
+<!-- Floating actions -->
+<button id="back-to-top" class="fab fab-top" aria-label="Back to top"><svg class="icon" aria-hidden="true"><use href="#i-arrow-up"/></svg></button>
+
+<div id="chatbot-container">
+    <button id="chatbot-toggle" class="fab fab-chat" aria-label="Send a quick message" aria-expanded="false">
+        <svg class="icon" aria-hidden="true"><use href="#i-comment-dots"/></svg>
+        <span class="fab-label">Let's talk</span>
+    </button>
+
+    <div id="chatbot-window" class="chat-window hidden glass-panel" role="dialog" aria-label="Quick message">
+        <div class="chat-header">
+            <div>
+                <h3>Quick message</h3>
+                <p><span class="status-dot"></span> Replies within 24 hours</p>
+            </div>
+            <button id="chat-close" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-xmark"/></svg></button>
+        </div>
+        <div class="chat-body">
+            <form id="contact-form" novalidate>
+                <input type="text" id="sender-name" placeholder="Your name" required>
+                <input type="email" id="sender-email" placeholder="Your email" required>
+                <textarea id="sender-message" rows="4" placeholder="How can I help?" required></textarea>
+                <button type="submit" class="btn btn-primary form-submit">Send <svg class="icon" aria-hidden="true"><use href="#i-paper-plane"/></svg></button>
+            </form>
+            <p id="chat-status" class="form-status hidden" role="status"></p>
+        </div>
+    </div>
+</div>
+
+<script src="js/script.js" defer></script>
 </body>
 </html>
